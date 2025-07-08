@@ -1,0 +1,500 @@
+@charset "utf-8";
+/*--------------ȫ-------------------*/
+*{margin:0px;padding:0;border:0;}
+body{ margin:0px auto;font-size:12px; font-family:Tahoma,""; background-color:#d7edf1;}
+li{list-style:none;}
+a{blr:e-xpression(this.onFocus=this.close()); text-decoration:none; color:#333;}
+a:focus{-moz-outline-style:none;}
+a,area{blr:expression(this.onFocus=this.blur());}
+img{ border:0px; }
+.clear{clear:both;height:0px;font-size:0px;margin:0px;}
+.blank5{height:5px;clear:both;font-size:1px;margin:0 auto;}
+.fl{float:left;}
+#foot p.iport{color:#4C8980;}
+#container{
+       margin:0 auto;
+       padding:0px;
+	   width:1002px; 
+	   text-align:left;
+}
+/*--------------top-------------------*/
+#Top{
+       width:1000px;
+	   height:75px;
+	   border:1px solid #BFE4E6;
+	   margin:0 auto;
+	   margin-top:10px;
+}
+#Top .pad{
+       border:2px solid #fff;
+	   background:#a0e1dc;
+       height:70px;
+}
+#Top .nav{
+       float:right;
+	   width:230px;
+	   height:38px;
+	   line-height:38px;
+	   color:#fff;
+	   display:inline;
+	   margin:30px 0 0 0;
+}
+#Top .nav a{
+       display:inline;
+	   padding:0 12px;
+	   font-size:14px;
+	   color:#fff;
+}
+#Top .nav a:hover{color:#2B7469;}
+
+/*---------------------------------------main----------------------------------------------*/
+#Main{
+      margin:0 auto;
+	  background:#fff;
+	  border:1px solid #BFE4E6;
+	  width:1000px;
+	  height:auto;
+	  _height:1462px;
+}
+
+/*--------------------------navigation-----------------------------*/
+#Navigation{
+       margin:0 5px;
+	   height:119px;
+	   width:990px;
+}
+.Nl,.Nm,.Nr{ 
+       margin:0px; 
+       height:119px;
+       float:left;
+}
+.Nl{
+      background:url(../images/maku_07.jpg) no-repeat;
+	  width:8px;
+}
+.Nm{
+      background:url(../images/maku_08.jpg) repeat-x;
+	  width:974px;
+	  
+}
+.Nr{
+      background:url(../images/maku_10.jpg) no-repeat;
+	  width:8px;
+}
+.nav-bg{
+      margin:8px 30px;
+	  float:left;
+      background:url(../images/nav-bg.jpg) no-repeat;
+	  height:100px;
+	  width:610px;
+}
+.nav-bg a{
+       display:inline;
+	   padding:0px 38px 0px 22px;
+	   *+padding:0px 35px 0px 21px;
+	   _padding:0px 39px 0px 22px; 
+	   font-size:14px;
+	   color:#fff;
+	   font-weight:bold;
+	   line-height:185px;
+}
+.nav-bg a:hover{
+      color:#ff9226;
+}
+.search{
+       margin:56px 20px 0px 25px;
+	   float:left;
+	   background:url(../images/search_16.gif) no-repeat;
+	   height:63px;
+	   width:236px;
+}
+.inputStyle{
+      margin:34px 0px 12px 22px;
+	  border:1px solid #7f9db9;
+      width:170px;
+	  height:16px;
+	  background:#fff;
+}
+.btn{
+      background:url(../images/search_btn.gif) no-repeat;
+	  margin-left:-20px;
+	  margin-bottom:5px; 
+	  height:37px;
+	  width:40px;
+	  cursor:pointer;
+}
+
+/*---------------------------left-----------------------------*/
+#Left{
+      margin:0px 0px 0px 5px; padding:0px;
+	  float:left;
+	  _position:absolute;
+	  _margin-top:-74px;
+}
+#Left .sub_nav,#Left .sub_nav li,#Left .upload,.upload-tit,#Left .adver{    /* #Left .sub_nav的height写在具体页面里 */
+      margin:0px; padding:0px;
+      width:222px;	  
+}
+
+#Left .sub_nav a,#Left .sub_nav a:hover{
+	  width:222px;
+	  height:29px;
+}
+#Left .sub_nav a{
+      margin:0px;
+      display:block;	  
+	  background:url(../images/maku-23.jpg) no-repeat;
+	  color:#4d7078;
+	  line-height:29px;
+	  font-size:14px;
+	  padding-left:30px;
+	  font-weight:bold;
+}
+#Left .sub_nav a:hover{
+	  background:url(../images/maku-24.jpg) no-repeat;
+	  color:#fff;
+}
+#Left .sub_blank{
+      margin:0px;
+	  padding:0px;
+	  font-size:0px;
+      background:url(../images/left_blank.jpg) no-repeat;
+	  width:222px;
+	  height:35px;
+}
+/*-------------left上传内容（妈酷熊页面）----------------*/
+#Left .upload{
+      margin-top:-1px;
+	  background:url(../images/Left_upload_28.jpg) repeat-y;
+	  height:373px;
+	  font-size:0px;	  
+}
+.upload-tit{      
+      background:url(../images/Left_upload.jpg) no-repeat;
+	  height:38px;
+}
+.upload-con{
+      background:url(../images/Left_upload_31.jpg) no-repeat 12px;
+	  margin:10px 5px;
+	  width:200px;
+	  height:310px;
+	  font-size:14px;
+}
+.upload-con li{
+      height:30px;
+	  border-bottom:1px dashed #87b9bb;
+	  margin-left:8px;
+}
+.upload-con a{
+      color:#4d7078;
+	  margin-left:45px;
+	  line-height:30px;
+}
+.upload-con a:hover{
+      color:#53aa97;
+}
+
+/*-------------left广告（妈酷熊页面）----------------*/
+#Left .adver{
+      padding-top:25px;
+      background:url(../images/left_ad_bg.jpg) repeat-y;
+	  height:550px;
+	  text-align:center;
+}
+
+/*--------------------------middle----------------------------*/
+#Middle{
+      margin:0px; padding:0px;
+	  float:left;
+	  _position:absolute;
+	  _margin-top:-74px;_margin-left:227px;
+}
+#Middle a{
+      color:#333;
+}
+.tit-font{
+      margin:8px 30px 2px 20px;
+	  color:#52aa96;
+}
+#Middle .Fimg-bg,.Fimg-top,.Fimg-bot,#Middle .content{
+      margin:0px; padding:0px;
+	  width:463px;
+}
+#Middle .Fimg-bg{
+      background:url(../images/flash_bg_26.jpg) repeat-y;
+	  height:300px;
+	  text-align:center;
+}
+.Fimg-top{
+      background:url(../images/flash_bg_top.jpg) no-repeat top;
+	  height:18px;
+}
+.Fimg-bot{
+      background:url(../images/flash_bg_bot.jpg) no-repeat bottom;
+	  height:15px;
+}
+.Flash{
+      margin:0px 5px 0px 18px;
+	  *margin-left:10px;
+	  border:1px solid #eee;
+	  width:432px;
+	  height:270px;
+}
+/*-------------middle列表（妈酷熊页面）----------------*/
+#Middle .content{
+      background:url(../images/flash_bg_26.jpg) repeat-y;
+	  height:850px;    /* 851px */
+	  text-align:center;
+}
+.content-top{
+      margin:0px;
+      background:url(../images/content_top.jpg) no-repeat top;
+	  height:15px;
+}
+.content-bot{
+      margin:0px;
+      background:url(../images/content_bottom.jpg) no-repeat bottom;
+      height:18px;
+}
+.con-tit{
+      margin:10px 10px 10px 25px;
+      background:url(../images/contentLi_39.jpg) no-repeat;
+	  width:417px;
+	  height:35px;
+}
+.content-li{
+      margin-left:28px;*margin-left:20px;
+      text-align:left;
+	  width:410px;
+}
+.content-li tr{
+      margin:0px; padding:0px;
+	  height:30px;
+	  line-height:30px;
+}
+.content-li td{
+      width:20px;
+	  border-bottom:1px dashed #87b9bb;
+}
+
+.content-li .libiao{
+      margin:0px;
+      width:200px;
+}
+.content-li a{
+      font-size:14px;
+}
+.content-btn{
+      margin:0px;
+	  margin-left:20px;*margin-left:12px;
+      width:410px;
+	  height:100px;
+	  line-height:70px;
+	  color:#ff9934;
+	  font-size:16px;
+	  font-family: Arial, Helvetica, sans-serif;
+	  text-align:center;
+}
+.content-btn a img{
+      margin:0px 12px;
+	  _margin-top:20px;
+}
+
+
+/*------------------------------right-------------------------------*/
+#Right{
+      margin:0px 5px 0px 0px; padding:0px;
+	  float:left;
+	  _position:absolute;
+	  _margin-top:-74px;
+	  _margin-left:685px;
+}
+
+#Right .login{                                        /*right圆角背景*/
+      margin-left:5px;_margin-left:10px;
+      background:url(../images/Logining_bg.jpg) repeat-y;
+	  width:300px;
+}
+.login-top,.login-bot{
+      margin:0px;width:300px;
+}
+.login-top{     
+	  background:url(../images/login-top.jpg) no-repeat;
+	  height:18px;
+}
+
+.login-bot{
+	  background:url(../images/login-bot.jpg) no-repeat;
+	  height:15px;
+}
+.login-tit{
+      margin:0px;
+	  margin-left:12px;
+      background:url(../images/login-tit_27.jpg) no-repeat;
+	  height:39px;
+	  width:271px;
+}
+.classroom-tit{
+      margin:0px;
+	  margin-left:12px;
+	  background:url(../images/classroom_42.jpg) no-repeat;
+	  height:74px;
+	  width:271px;
+}
+.classroom-con{
+	 margin:10px 0px 0px 45px;
+	 width:230px;
+	 height:168px;
+	 background:url(../images/classroom_57.gif) no-repeat top right; 
+}
+.classroom-con a{
+	 color:#b4b4b4;
+	 font-size:14px;
+	 font-weight:normal;
+}
+.classroom-con li{  
+     list-style:url(../images/iconLi_1.jpg) outside;
+	 height:23px;
+	 line-height:18px;
+}
+
+.boyin-upload{
+      margin:0px;
+	  margin-left:13px;
+	  background:url(../images/boyin-upload1.jpg) no-repeat;
+	  height:43px;
+	  width:271px;
+}
+.boyin-con{ 
+      margin:0px;
+	  text-align:center;
+	  width:230px;
+	  height:90px;
+}
+.login-con{
+      margin:0px;
+	  width:271px;
+	  height:153px;
+}
+#Right .login img{
+      margin:15px 5px 5px 24px;
+}
+#Right .login p{
+      margin-left:24px;
+	  margin-bottom:15px;
+
+}
+#Right .login span{
+      margin-left:24px;
+	  margin-bottom:8px;
+}
+
+#Right .login a{
+      color:#c5c5c5;
+	  font-weight:bold;
+}
+#Right .login a:hover{
+      color:#ff9226;
+}
+.login-font{
+     margin:0px;
+	 margin-top:-120px;
+     float:right;
+	 color:#b4b4b4;
+	 line-height:17px;
+}
+.login-btn{
+     margin:6px 0px 0px 35px;
+     background:url(../images/Logining_btn.jpg) no-repeat;
+	 width:104px;
+	 height:25px;
+	 color:#fff;
+	 line-height:25px;
+	 cursor:pointer;
+}
+.event-tit{
+     margin:0px;
+	 margin-left:12px;
+	 background:url(../images/event_82.jpg) no-repeat;
+	 height:62px;
+	 width:271px;
+}
+.event-btn{
+     margin:30px 0px 0px 15px;
+     background:url(../images/event-btn.jpg) no-repeat;
+	 width:107px;
+	 height:27px;
+	 color:#fff;
+	 line-height:25px;
+	 cursor:pointer;
+}
+.event-con{
+	 margin-left:-12px;
+	 margin-top:-15px;
+	 width:395px;
+	 height:210px;
+}
+
+.right-adver{
+    margin:20px 0px 0px 14px; _margin-top:5px;
+	padding:0px;
+	/*background:url(/web/20110203081924im_/http://www.momcoo.com/Web/images/Logining_adver.jpg) no-repeat;*/
+	width:278px;
+	height:234px;
+}    
+/*------------------------------footer-------------------------------*/
+.Footer{
+   margin:0 5px;
+   padding-top:20px;
+   background:#aad3db;
+   width:990px;
+   height:98px;
+   text-align:center;
+   color:#0e9c8b;
+   _position:absolute;
+   _margin-top:1135px;
+   line-height:22px;
+}
+.Footer a{
+   color:#217266;
+}
+.Footer a:hover{
+  color:#0e9c8b;
+}
+.Footer p{
+  color:#217266;}
+
+/*-----------------------------Help Middle-------------------------------*/
+.hdiv1{padding-left:20px; padding-bottom:20px; padding-top:15px;}
+.htd1{font-size:12px; font-weight:bold;}
+.htd2{padding-left:20px;}
+.htd3{border:none;width:700px;height:30px;line-height:20px;padding-bottom:20px;}
+.htd4{border:none;line-height:20px;width:700px;height:auto; padding-left:20px;}
+
+a.alike {color:#52AA96;}
+a.alike:link {color:#52AA96; text-decoration:underline;}
+a.alike:visited {color:#999999; text-decoration:none;}
+a.alike:hover {color:#FFFFFF; text-decoration:none;}
+a.alike:active {color:#FFFFFF; text-decoration:underline;}
+
+
+/*
+     FILE ARCHIVED ON 08:19:24 Feb 03, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:09:56 Jun 01, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.529
+  exclusion.robots: 0.018
+  exclusion.robots.policy: 0.008
+  esindex: 0.009
+  cdx.remote: 24.08
+  LoadShardBlock: 87.64 (3)
+  PetaboxLoader3.datanode: 83.737 (4)
+  load_resource: 145.196
+  PetaboxLoader3.resolve: 115.962
+*/
