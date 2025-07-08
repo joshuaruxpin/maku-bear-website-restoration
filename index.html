@@ -1,4 +1,899 @@
-<!DOCTYPE html> 
-<body>
- <td style="width:105px; height:37px;"><a href="/maku%20restoration/" target="_blank"><img src="/maku.gif" alt="maku site" border="0"></a></td>
-  </body>
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml"><head><script src="js/athena.js" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app211.us.archive.org';v.server_ms=393;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript" src="js/bundle-playback.js" charset="utf-8"></script>
+<script type="text/javascript" src="js/wombat.js" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden","showSwfDownload":true};</script>
+<script type="text/javascript" src="js/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://www.momcoo.com/Web/MKX/Default.aspx","20110203081734","https://web.archive.org/","web","https://web-static.archive.org/_static/",
+	      "1296721054");
+</script>
+<link rel="stylesheet" type="text/css" href="css/banner-styles.css">
+<link rel="stylesheet" type="text/css" href="css/iconochive.css">
+<!-- End Wayback Rewrite JS Include -->
+<title>
+	maku.com
+</title><meta name="title" content="maku.com--Mother and child education exchange platform"><meta name="description" content="maku.com - A social network platform for parents of 0-6 year old babies and children to provide communication services，Users can share audio-visual works that contribute to the development and education of infants and toddlers，Record your child's growth experience，Share pregnancy and parenting experiences and discuss life topics。"><meta name="keywords" content="maku.com, maku, mother and child education, infant and toddler education, parenting communication, parenting knowledge"><meta http-equiv="Content-Type" content="text/html; charset=gb2312"><meta http-equiv="X-UA-Compatible" content="IE=7"><link href="css/i-style.css" type="text/css" rel="stylesheet">
+    <style type="text/css">
+        <!--
+        .btn-bg
+        {
+            background: url(images/flash-bg_45.jpg) no-repeat;
+            height: 28px;
+            text-align: center;
+            padding: 0 30px;
+        }
+        .login-font p
+        {
+            /*login*/
+            margin-top: 0px;
+            color: #999;
+            line-height: 18px;
+        }
+        .inputLogin
+        {
+            /*login*/
+            margin: 0px 0px 0px 4px;
+            border: 1px solid #7f9db9;
+            width: 110px;
+            height: 16px;
+            background: #fff;
+            color: #999;
+            _margin-bottom: 5px;
+        }
+        .login-btn2
+        {
+            /*login*/
+            background: url(images/denglu_btn.jpg) no-repeat;
+            width: 72px;
+            height: 23px;
+            line-height: 23px;
+            margin-left: 14px;
+            cursor: pointer;
+            color: #fff;
+            margin-top: -10px;
+        }
+        .login-font .img
+        {
+            background: url(images/login_pic_38.jpg) no-repeat;
+            width: 144px;
+            height: 18px;
+            margin-top: 0px; *margin-top:15px;
+        }
+        .logon-font{
+         margin-left:0px;
+         width:150px;
+	     margin-top:-105px;
+         float:right;
+	     color:#b4b4b4;
+	     line-height:17px;
+        }
+       .logon-font a
+       {
+         margin-right:10px;
+         margin-top:5px;
+       }
+        -->
+        </style>
+        <script type="text/javascript">
+            function Search() {
+                location.href = "Default.aspx";
+            }
+</script>
+    
+    <link type="text/css" rel="stylesheet" href="css/jquery_dialog.css">
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+
+    <script type="text/javascript" src="js/jquery_dialog.js"></script>
+
+    <script type="text/javascript">
+        var roll_image = new Array;
+        var image_link = new Array;
+        var small_img = new Array;
+
+        roll_image[0] = 'images/01.jpg';
+        image_link[0] = "https://web.archive.org/web/20110203081734/http://www.shiseidochina.com";
+        small_img[0] = 'images/main_flash_button1_on.gif';
+
+        roll_image[1] = 'images/02.jpg';
+        image_link[1] = "https://web.archive.org/web/20110203081734/http://www.shiseidochina.com";
+        small_img[1] = 'images/main_flash_button2_on.gif';
+
+        roll_image[2] = 'images/03.jpg';
+        image_link[2] = "https://web.archive.org/web/20110203081734/http://www.shiseidochina.com";
+        small_img[2] = 'images/main_flash_button3_on.gif';
+
+        roll_image[3] = 'images/04.jpg';
+        image_link[3] = "https://web.archive.org/web/20110203081734/http://www.shiseidochina.com";
+        small_img[3] = 'images/main_flash_button4_on.gif';
+
+
+
+        var cliImg = '';
+        var cliImgSrc = '';
+        var imgNo = Math.round(Math.random() * 7);
+
+        var interval = 3000;
+        var setTime = '';
+
+        function click_simg(ci, no) {
+            var pImg = document.all.bigimg;
+            var pLink = document.all.imglink;
+
+            if (cliImg == '') {
+                cliImg = ci;
+                cliImgSrc = ci.src;
+                ci.src = small_img[no];
+                imgNo = no;
+                pImg.src = roll_image[no];
+                pLink.href = image_link[no];
+            } else if (cliImg != ci) {
+                cliImg.src = cliImgSrc;
+                cliImg = ci;
+                cliImgSrc = ci.src;
+                ci.src = small_img[no];
+                imgNo = no;
+                pImg.src = roll_image[no];
+                pLink.href = image_link[no];
+            }
+            clearTimeout(setTime);
+            setTime = setTimeout("rotate()", interval);
+        }
+
+        function rotate() {
+            imgNo = (imgNo >= 3) ? 0 : imgNo + 1;
+            var ci = eval('document.all.num_img' + imgNo);
+
+            document.all.bigimg.filters.blendTrans.apply();
+            document.all.imglink.href = image_link[imgNo];
+            document.all.bigimg.src = roll_image[imgNo];
+            document.all.bigimg.filters.blendTrans.play();
+
+            if (cliImg == '') {
+                cliImg = ci;
+                cliImgSrc = ci.src;
+                ci.src = small_img[imgNo];
+            } else if (cliImg != ci) {
+                cliImg.src = cliImgSrc;
+                cliImg = ci;
+                cliImgSrc = ci.src;
+                ci.src = small_img[imgNo];
+            }
+
+            setTime = setTimeout("rotate()", interval);
+        }
+
+        function Test(url) {
+            var S="No";
+            if (S != "Yes") {
+                alert("You are not logged in。");
+                return false;
+            }
+            var I = "1";
+            if (I != 2) {
+                alert("You are not a VIP member and cannot audition.");
+                return false;
+            }
+            else {
+                JqueryDialog.Open('', 'MediaPlayer.aspx?name='+url, 320, 100);
+                return false;
+            }
+        }
+
+        //-->
+    </script>
+
+</head>
+    <form name="aspnetForm" method="post" action="Default.aspx" id="aspnetForm">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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PScvV2ViL01LWC9EZWZhdWx0LmFzcHg/UGFnZT01JyIgaHJlZj0namF2YXNjcmlwdDp2b2lkKDUpOyc+NTwvYT4mbmJzcDs8YSBvbmNsaWNrPSJqYXZhc2NyaXB0OndpbmRvdy5sb2NhdGlvbi5ocmVmPScvV2ViL01LWC9EZWZhdWx0LmFzcHg/UGFnZT02JyIgaHJlZj0namF2YXNjcmlwdDp2b2lkKDYpOyc+NjwvYT4mbmJzcDs8YSBvbmNsaWNrPSJqYXZhc2NyaXB0OndpbmRvdy5sb2NhdGlvbi5ocmVmPScvV2ViL01LWC9EZWZhdWx0LmFzcHg/UGFnZT03JyIgaHJlZj0namF2YXNjcmlwdDp2b2lkKDcpOyc+NzwvYT4mbmJzcDs8YSBvbmNsaWNrPSJqYXZhc2NyaXB0OndpbmRvdy5sb2NhdGlvbi5ocmVmPScvV2ViL01LWC9EZWZhdWx0LmFzcHg/UGFnZT04JyIgaHJlZj0namF2YXNjcmlwdDp2b2lkKDgpOyc+ODwvYT4mbmJzcDs8YSBvbmNsaWNrPSJqYXZhc2NyaXB0OndpbmRvdy5sb2NhdGlvbi5ocmVmPScvV2ViL01LWC9EZWZhdWx0LmFzcHg/UGFnZT05JyIgaHJlZj0namF2YXNjcmlwdDp2b2lkKDkpOyc+OTwvYT4mbmJzcDs8YSBvbmNsaWNrPSJqYXZhc2NyaXB0OndpbmRvdy5sb2NhdGlvbi5ocmVmPScvV2ViL01LWC9EZWZhdWx0LmFzcHg/UGFnZT0xMCciIGhyZWY9J2phdmFzY3JpcHQ6dm9pZCgxMCk7Jz4xMDwvYT4mbmJzcDs8YSBvbmNsaWNrPSJqYXZhc2NyaXB0OndpbmRvdy5sb2NhdGlvbi5ocmVmPScvV2ViL01LWC9EZWZhdWx0LmFzcHg/UGFnZT0yJyIgaHJlZj0namF2YXNjcmlwdDp2b2lkKDIpOyc+PGltZyB0aXRsZT0n5LiL5LiA6aG1JyBhbHQ9IiIgc3JjPSJpbWFnZXMvY29udGVudExpXzY2LmpwZyIgLz48L2E+Jm5ic3A7PGEgb25jbGljaz0iamF2YXNjcmlwdDp3aW5kb3cubG9jYXRpb24uaHJlZj0nL1dlYi9NS1gvRGVmYXVsdC5hc3B4P1BhZ2U9NjcnIiBocmVmPSdqYXZhc2NyaXB0OnZvaWQoNjcpOyc+PGltZyB0aXRsZT0n5bC+6aG1JyBhbHQ9IiIgc3JjPSJpbWFnZXMvd2VpeWUxLmdpZiIgLz48L2E+Jm5ic3A7PC9kaXY+ZGS6CHmCRWlZVob/Op3w7hyHhiE/kg==">
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<div>
+
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWcAKUj4+wDwLTivHfDQK8r9yJDQL+5sj9CwLV37cqAt+43okNAuXtyv0LAvTftyoC/oHJgQ0CyNrF+QsCl+G3KgKZi8uBDQKf4cf5CwK24bcqAvCO1IkNAtLJwP0LAtnetyoCk5jWiQ0C6dDC/QsC+N63KgKy4cCBDQLMub35CwKb4LcqAp3qwoENAvPDv/kLArrgtyoCxPHMgQ0Chq3K+QsC3eG3KgKH886BDQLts8z5CwL84bcqAsHvsbcIAqSx1MsCAv7N2I0KAr6Sh/UIAtzYu4oCAr+ajhgC/s2kvgICj87EsAQCpoa8CgKQ1vP0BgL+zYCiBALl+dmnBALVys6IAQKQ1o98Av7N7KsCAsqQgPIBAoudprQBAu7eyPgOAv7NiLUCAvTkkrsJAqaGsIcLAonIguUJAv7NlJgGAuX5lbQGAvCzsIcJAtqD6PEPAv7NsMkMApvMpbUKAt/Ft9QEAtqDhKkNAv7NnNMKAoDji50JAq2Uie4DAriMvaUDAv7NuIwOAtLtr+0NAsj9kv4FAoK6nZ4HAv7NhIcEAqOp7fIOArynirMCAt+L1qoFAoO+gNEKArmf5IwNAuvrnLEDAo7QyLUHAoO+zIEDAp622usDArWZnbEBAsuw9dMJAoO+qOUEAtSI+vYLAtCCp4QLAsuw4ccGAoO+lO8CAsWdjYIKAobV/q8LAqm5ytcBAoO+sPgCAu/x77cEArWZka4MArDH694NAoO+vNsGAtSI5pYLAr/es8EKApXe6dACAoO+2IwNAqq0i90MAtrHvZQEApXe1fQCAoO+xJYLAvvvmK0BAqjM4ekNAvPmvoQGAoO+4M8OAs36jOoIAteQ9KQHAr2Uz5AHAoO+rMoEArKRg64OZW4D23AAJnOsUPQx1MIKvOet6Kc=">
+</div>
+    <div id="container">
+        <div id="Top">
+            <div class="pad">
+                <div class="nav">
+                    <a href="/maku%20restoration/pages/homepage/">
+                        homepage</a><a href="/maku%20restoration/pages/homepage/">account</a>
+                    <a href="/web/20110203081734/http://www.momcoo.com/Web/Help/assistant.aspx">Service</a></div>
+                <span class="fl"><a href="/maku%20restoration" title="maku.com">
+                    <img alt="" src="images/maku_logo.jpg"></a></span>
+            </div>
+        </div>
+    </div>
+    <div class="blank5">
+    </div>
+    <div id="Main">
+        <div class="blank5">
+        </div>
+        <div id="Navigation">
+            <div class="Nl">
+            </div>
+            <div class="Nm">
+                <span class="nav-bg"><a href="/maku%20restoration">
+                    maku bear</a><a href="/maku%20restoration/pages/focus%20topics">focus topics</a><a href="/maku%20restoration/pages/buy%20maku%20bear">buy maku bear</a><a href="javascript:alert('Please understand the inconvenience caused by the test!');">teaching</a> <a href="javascript:alert('Please understand the inconvenience caused by the test!');">Activity Area</a>
+                </span><span class="search">
+                    <input name="ctl00$key" type="text" id="ctl00_key" class="inputStyle">
+                    <input class="btn" type="submit" name="btnSubmit" value="" onclick="return Search()">
+                </span>
+            </div>
+            <div class="Nr">
+            </div>
+        </div>
+        
+    <div id="Left">
+        <ul class="sub_nav" style="height: 232px;">
+            
+                    <li><a href="Default.aspx?type=29">
+                        Baby Music</a></li>
+                
+                    <li><a href="Default.aspx?type=30">
+                        happy children's song</a></li>
+                
+                    <li><a href="Default.aspx?type=31">
+                        Children's stories</a></li>
+                
+                    <li><a href="Default.aspx?type=32">
+                        poems</a></li>
+                
+                    <li><a href="Default.aspx?type=34">
+                        ABC of Foreign Languages</a></li>
+                
+                    <li><a href="Default.aspx?type=35">
+                        synthesize</a></li>
+                
+                    <li><a href="Default.aspx?type=36">
+                        Online Work</a></li>
+                
+                    <li><a href="Default.aspx?type=37">
+                        Creating materials</a></li>
+                
+        </ul>
+        <div class="sub_blank">
+        </div>
+        <div class="upload">
+            <div class="upload-tit">
+            </div>
+            <ul class="upload-con">
+                
+                        <li>
+                            <a id="ctl00_ContentLeft_rptmkxTop_ctl00_btnDownLoad" href="javascript:__doPostBack('ctl00$ContentLeft$rptmkxTop$ctl00$btnDownLoad','')"><span title="点击数35">《荷马史诗》</span></a>
+                            <span style="text-align:right; float:right; margin-top:-25px;" title="Hits 35"> 35</span>
+                            <input type="hidden" name="ctl00$ContentLeft$rptmkxTop$ctl00$hidFileName" id="ctl00_ContentLeft_rptmkxTop_ctl00_hidFileName" value="201092814112875090《荷马史诗》---[阳光宝贝][bbs.bbxpp.cn].mp">
+                            <input type="hidden" name="ctl00$ContentLeft$rptmkxTop$ctl00$hidID" id="ctl00_ContentLeft_rptmkxTop_ctl00_hidID" value="1341">
+                        </li>
+                    
+                        <li>
+                            <a id="ctl00_ContentLeft_rptmkxTop_ctl01_btnDownLoad" href="javascript:__doPostBack('ctl00$ContentLeft$rptmkxTop$ctl01$btnDownLoad','')"><span title="点击数24">冰姑娘</span></a>
+                            <span style="text-align:right; float:right; margin-top:-25px;" title="点击数24"> 24</span>
+                            <input type="hidden" name="ctl00$ContentLeft$rptmkxTop$ctl01$hidFileName" id="ctl00_ContentLeft_rptmkxTop_ctl01_hidFileName" value="201071312026717安徒生童话 冰姑娘.mp3">
+                            <input type="hidden" name="ctl00$ContentLeft$rptmkxTop$ctl01$hidID" id="ctl00_ContentLeft_rptmkxTop_ctl01_hidID" value="30">
+                        </li>
+                    
+                        <li>
+                            <a id="ctl00_ContentLeft_rptmkxTop_ctl02_btnDownLoad" href="javascript:__doPostBack('ctl00$ContentLeft$rptmkxTop$ctl02$btnDownLoad','')"><span title="点击数18">价值连城</span></a>
+                            <span style="text-align:right; float:right; margin-top:-25px;" title="点击数18"> 18</span>
+                            <input type="hidden" name="ctl00$ContentLeft$rptmkxTop$ctl02$hidFileName" id="ctl00_ContentLeft_rptmkxTop_ctl02_hidFileName" value="2010729172214142165价值连城---[阳光宝贝][bbs.bbxpp.cn].mp3">
+                            <input type="hidden" name="ctl00$ContentLeft$rptmkxTop$ctl02$hidID" id="ctl00_ContentLeft_rptmkxTop_ctl02_hidID" value="287">
+                        </li>
+                    
+                        <li>
+                            <a id="ctl00_ContentLeft_rptmkxTop_ctl03_btnDownLoad" href="javascript:__doPostBack('ctl00$ContentLeft$rptmkxTop$ctl03$btnDownLoad','')"><span title="点击数12">叶公好龙</span></a>
+                            <span style="text-align:right; float:right; margin-top:-25px;" title="点击数12"> 12</span>
+                            <input type="hidden" name="ctl00$ContentLeft$rptmkxTop$ctl03$hidFileName" id="ctl00_ContentLeft_rptmkxTop_ctl03_hidFileName" value="2010720162739447366叶公好龙---[阳光宝贝][bbs.bbxpp.cn].mp3">
+                            <input type="hidden" name="ctl00$ContentLeft$rptmkxTop$ctl03$hidID" id="ctl00_ContentLeft_rptmkxTop_ctl03_hidID" value="226">
+                        </li>
+                    
+                        <li>
+                            <a id="ctl00_ContentLeft_rptmkxTop_ctl04_btnDownLoad" href="javascript:__doPostBack('ctl00$ContentLeft$rptmkxTop$ctl04$btnDownLoad','')"><span title="点击数10">布谷鸟</span></a>
+                            <span style="text-align:right; float:right; margin-top:-25px;" title="点击数10"> 10</span>
+                            <input type="hidden" name="ctl00$ContentLeft$rptmkxTop$ctl04$hidFileName" id="ctl00_ContentLeft_rptmkxTop_ctl04_hidFileName" value="201071412371690快乐英文儿歌 布谷鸟.mp3">
+                            <input type="hidden" name="ctl00$ContentLeft$rptmkxTop$ctl04$hidID" id="ctl00_ContentLeft_rptmkxTop_ctl04_hidID" value="70">
+                        </li>
+                    
+                        <li>
+                            <a id="ctl00_ContentLeft_rptmkxTop_ctl05_btnDownLoad" href="javascript:__doPostBack('ctl00$ContentLeft$rptmkxTop$ctl05$btnDownLoad','')"><span title="点击数10"> 蓝色多瑙河</span></a>
+                            <span style="text-align:right; float:right; margin-top:-25px;" title="点击数10"> 10</span>
+                            <input type="hidden" name="ctl00$ContentLeft$rptmkxTop$ctl05$hidFileName" id="ctl00_ContentLeft_rptmkxTop_ctl05_hidFileName" value="201073010342830钢琴名曲 蓝色多瑙河.mp3">
+                            <input type="hidden" name="ctl00$ContentLeft$rptmkxTop$ctl05$hidID" id="ctl00_ContentLeft_rptmkxTop_ctl05_hidID" value="291">
+                        </li>
+                    
+                        <li>
+                            <a id="ctl00_ContentLeft_rptmkxTop_ctl06_btnDownLoad" href="javascript:__doPostBack('ctl00$ContentLeft$rptmkxTop$ctl06$btnDownLoad','')"><span title="点击数9">梦</span></a>
+                            <span style="text-align:right; float:right; margin-top:-25px;" title="点击数9"> 9</span>
+                            <input type="hidden" name="ctl00$ContentLeft$rptmkxTop$ctl06$hidFileName" id="ctl00_ContentLeft_rptmkxTop_ctl06_hidFileName" value="201092712503431少儿歌曲-梦.mp3">
+                            <input type="hidden" name="ctl00$ContentLeft$rptmkxTop$ctl06$hidID" id="ctl00_ContentLeft_rptmkxTop_ctl06_hidID" value="1330">
+                        </li>
+                    
+                        <li>
+                            <a id="ctl00_ContentLeft_rptmkxTop_ctl07_btnDownLoad" href="javascript:__doPostBack('ctl00$ContentLeft$rptmkxTop$ctl07$btnDownLoad','')"><span title="点击数8">牛奶歌</span></a>
+                            <span style="text-align:right; float:right; margin-top:-25px;" title="点击数8"> 8</span>
+                            <input type="hidden" name="ctl00$ContentLeft$rptmkxTop$ctl07$hidFileName" id="ctl00_ContentLeft_rptmkxTop_ctl07_hidFileName" value="201071413512160韩国奶牛歌 可爱的童声 儿童音乐.mp3">
+                            <input type="hidden" name="ctl00$ContentLeft$rptmkxTop$ctl07$hidID" id="ctl00_ContentLeft_rptmkxTop_ctl07_hidID" value="72">
+                        </li>
+                    
+                        <li>
+                            <a id="ctl00_ContentLeft_rptmkxTop_ctl08_btnDownLoad" href="javascript:__doPostBack('ctl00$ContentLeft$rptmkxTop$ctl08$btnDownLoad','')"><span title="点击数7">读书郎</span></a>
+                            <span style="text-align:right; float:right; margin-top:-25px;" title="点击数7"> 7</span>
+                            <input type="hidden" name="ctl00$ContentLeft$rptmkxTop$ctl08$hidFileName" id="ctl00_ContentLeft_rptmkxTop_ctl08_hidFileName" value="201071412122282儿歌 读书郎.mp3">
+                            <input type="hidden" name="ctl00$ContentLeft$rptmkxTop$ctl08$hidID" id="ctl00_ContentLeft_rptmkxTop_ctl08_hidID" value="63">
+                        </li>
+                    
+                        <li>
+                            <a id="ctl00_ContentLeft_rptmkxTop_ctl09_btnDownLoad" href="javascript:__doPostBack('ctl00$ContentLeft$rptmkxTop$ctl09$btnDownLoad','')"><span title="点击数7">Old Macd..</span></a>
+                            <span style="text-align:right; float:right; margin-top:-25px;" title="点击数7"> 7</span>
+                            <input type="hidden" name="ctl00$ContentLeft$rptmkxTop$ctl09$hidFileName" id="ctl00_ContentLeft_rptmkxTop_ctl09_hidFileName" value="20107151561163401-Old Macdonald had a farm.mp3">
+                            <input type="hidden" name="ctl00$ContentLeft$rptmkxTop$ctl09$hidID" id="ctl00_ContentLeft_rptmkxTop_ctl09_hidID" value="165">
+                        </li>
+                    
+            </ul>
+        </div>
+        <div class="adver">
+            <a href="https://web.archive.org/web/20110203081734/http://www.gymboree.com.cn/" target="_blank"><img src="images/left_ad.gif"></a>
+        </div>
+    </div>
+
+        
+    <div id="Middle">
+        <p class="tit-font">
+            <a href="/maku%20restoration/pages/homepage/">homepage</a> > <a href="#">momcoo</a> ><span id="ctl00_ContentMiddle_lblTitleLink"></span>
+        </p>
+        <div class="Fimg-bg">
+            <div class="Fimg-top">
+            </div>
+            <div class="Flash">
+                <table cellspacing="0" cellpadding="0" width="432" border="0">
+                    <tbody>
+                        <tr>
+                            <td height="240">
+                                <a onfocus="this.blur()" href="#" target="_blank" name="imglink">
+                                    <img style="filter: blendTrans(duration=1)" height="240" src="images/01.jpg" width="432" border="0" name="bigimg"></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height="30">
+                                <table cellspacing="0" cellpadding="0" width="100%" border="0">
+                                    <tbody>
+                                        <tr class="btn-bg">
+                                            <td width="65">
+                                            </td>
+                                            <td width="26">
+                                                <img style="cursor: hand" onclick="click_simg(this, 0);" height="17" src="images/main_flash_button1.gif" width="25" border="0" name="num_img0">
+                                            </td>
+                                            <td width="26">
+                                                <img style="cursor: hand" onclick="click_simg(this, 1);" height="17" src="images/main_flash_button2.gif" width="25" border="0" name="num_img1">
+                                            </td>
+                                            <td width="26">
+                                                <img style="cursor: hand" onclick="click_simg(this, 2);" height="17" src="images/main_flash_button3.gif" width="25" border="0" name="num_img2">
+                                            </td>
+                                            <td width="26">
+                                                <img style="cursor: hand" onclick="click_simg(this, 3);" height="17" src="images/main_flash_button4.gif" width="25" border="0" name="num_img3">
+                                            </td>
+                                            <td width="40">
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <script>                    rotate();</script>
+
+            </div>
+            <div class="Fimg-bot">
+            </div>
+        </div>
+        <div class="content">
+            <div class="content-top">
+            </div>
+            <div id="ctl00_ContentMiddle_divTypeImg" class="con-tit">
+            </div>
+            <table class="content-li">
+                
+                        <tbody><tr>
+                            <td>
+                                <img src="images/iconLi.jpg">
+                            </td>
+                            <td class="libiao">
+                                
+                                <a id="ctl00_ContentMiddle_rptContent_ctl00_btnDownLoad" href="javascript:__doPostBack('ctl00$ContentMiddle$rptContent$ctl00$btnDownLoad','')">zh ch sh r</a>
+                                <input type="hidden" name="ctl00$ContentMiddle$rptContent$ctl00$hidFileName" id="ctl00_ContentMiddle_rptContent_ctl00_hidFileName" value="201012161425931拼音 zh ch sh r.mp3">
+                                <input type="hidden" name="ctl00$ContentMiddle$rptContent$ctl00$hidID" id="ctl00_ContentMiddle_rptContent_ctl00_hidID" value="1395">
+                            </td>
+                            <td>
+                                <a style="cursor: pointer;" onclick="return Test('201012161425931拼音 zh ch sh r.mp3')">
+                                    <img title="试听" alt="" src="images/iconM.jpg"></a>
+                            </td>
+                            <td>
+                                <a id="ctl00_ContentMiddle_rptContent_ctl00_LinkButton1" href="javascript:__doPostBack('ctl00$ContentMiddle$rptContent$ctl00$LinkButton1','')"><img alt="" title="下载" src="images/iconG.jpg"></a>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td>
+                                <img src="images/iconLi.jpg">
+                            </td>
+                            <td class="libiao">
+                                
+                                <a id="ctl00_ContentMiddle_rptContent_ctl01_btnDownLoad" href="javascript:__doPostBack('ctl00$ContentMiddle$rptContent$ctl01$btnDownLoad','')">z c s</a>
+                                <input type="hidden" name="ctl00$ContentMiddle$rptContent$ctl01$hidFileName" id="ctl00_ContentMiddle_rptContent_ctl01_hidFileName" value="20101216142433390拼音 z c s.mp3">
+                                <input type="hidden" name="ctl00$ContentMiddle$rptContent$ctl01$hidID" id="ctl00_ContentMiddle_rptContent_ctl01_hidID" value="1394">
+                            </td>
+                            <td>
+                                <a style="cursor: pointer;" onclick="return Test('20101216142433390拼音 z c s.mp3')">
+                                    <img title="试听" alt="" src="images/iconM.jpg"></a>
+                            </td>
+                            <td>
+                                <a id="ctl00_ContentMiddle_rptContent_ctl01_LinkButton1" href="javascript:__doPostBack('ctl00$ContentMiddle$rptContent$ctl01$LinkButton1','')"><img alt="" title="下载" src="images/iconG.jpg"></a>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td>
+                                <img src="images/iconLi.jpg">
+                            </td>
+                            <td class="libiao">
+                                
+                                <a id="ctl00_ContentMiddle_rptContent_ctl02_btnDownLoad" href="javascript:__doPostBack('ctl00$ContentMiddle$rptContent$ctl02$btnDownLoad','')">y u u</a>
+                                <input type="hidden" name="ctl00$ContentMiddle$rptContent$ctl02$hidFileName" id="ctl00_ContentMiddle_rptContent_ctl02_hidFileName" value="2010121614242984拼音 y u u.mp3">
+                                <input type="hidden" name="ctl00$ContentMiddle$rptContent$ctl02$hidID" id="ctl00_ContentMiddle_rptContent_ctl02_hidID" value="1393">
+                            </td>
+                            <td>
+                                <a style="cursor: pointer;" onclick="return Test('2010121614242984拼音 y u u.mp3')">
+                                    <img title="试听" alt="" src="images/iconM.jpg"></a>
+                            </td>
+                            <td>
+                                <a id="ctl00_ContentMiddle_rptContent_ctl02_LinkButton1" href="javascript:__doPostBack('ctl00$ContentMiddle$rptContent$ctl02$LinkButton1','')"><img alt="" title="下载" src="images/iconG.jpg"></a>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td>
+                                <img src="images/iconLi.jpg">
+                            </td>
+                            <td class="libiao">
+                                
+                                <a id="ctl00_ContentMiddle_rptContent_ctl03_btnDownLoad" href="javascript:__doPostBack('ctl00$ContentMiddle$rptContent$ctl03$btnDownLoad','')">j q x</a>
+                                <input type="hidden" name="ctl00$ContentMiddle$rptContent$ctl03$hidFileName" id="ctl00_ContentMiddle_rptContent_ctl03_hidFileName" value="2010121614239671拼音 j q x.mp3">
+                                <input type="hidden" name="ctl00$ContentMiddle$rptContent$ctl03$hidID" id="ctl00_ContentMiddle_rptContent_ctl03_hidID" value="1392">
+                            </td>
+                            <td>
+                                <a style="cursor: pointer;" onclick="return Test('2010121614239671拼音 j q x.mp3')">
+                                    <img title="试听" alt="" src="images/iconM.jpg"></a>
+                            </td>
+                            <td>
+                                <a id="ctl00_ContentMiddle_rptContent_ctl03_LinkButton1" href="javascript:__doPostBack('ctl00$ContentMiddle$rptContent$ctl03$LinkButton1','')"><img alt="" title="下载" src="images/iconG.jpg"></a>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td>
+                                <img src="images/iconLi.jpg">
+                            </td>
+                            <td class="libiao">
+                                
+                                <a id="ctl00_ContentMiddle_rptContent_ctl04_btnDownLoad" href="javascript:__doPostBack('ctl00$ContentMiddle$rptContent$ctl04$btnDownLoad','')">ie e - er</a>
+                                <input type="hidden" name="ctl00$ContentMiddle$rptContent$ctl04$hidFileName" id="ctl00_ContentMiddle_rptContent_ctl04_hidFileName" value="2010121614228718拼音 ie e - er.mp3">
+                                <input type="hidden" name="ctl00$ContentMiddle$rptContent$ctl04$hidID" id="ctl00_ContentMiddle_rptContent_ctl04_hidID" value="1391">
+                            </td>
+                            <td>
+                                <a style="cursor: pointer;" onclick="return Test('2010121614228718拼音 ie e - er.mp3')">
+                                    <img title="试听" alt="" src="images/iconM.jpg"></a>
+                            </td>
+                            <td>
+                                <a id="ctl00_ContentMiddle_rptContent_ctl04_LinkButton1" href="javascript:__doPostBack('ctl00$ContentMiddle$rptContent$ctl04$LinkButton1','')"><img alt="" title="下载" src="images/iconG.jpg"></a>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td>
+                                <img src="images/iconLi.jpg">
+                            </td>
+                            <td class="libiao">
+                                
+                                <a id="ctl00_ContentMiddle_rptContent_ctl05_btnDownLoad" href="javascript:__doPostBack('ctl00$ContentMiddle$rptContent$ctl05$btnDownLoad','')">g k h</a>
+                                <input type="hidden" name="ctl00$ContentMiddle$rptContent$ctl05$hidFileName" id="ctl00_ContentMiddle_rptContent_ctl05_hidFileName" value="20101216142115593拼音 g k h.mp3">
+                                <input type="hidden" name="ctl00$ContentMiddle$rptContent$ctl05$hidID" id="ctl00_ContentMiddle_rptContent_ctl05_hidID" value="1390">
+                            </td>
+                            <td>
+                                <a style="cursor: pointer;" onclick="return Test('20101216142115593拼音 g k h.mp3')">
+                                    <img title="试听" alt="" src="images/iconM.jpg"></a>
+                            </td>
+                            <td>
+                                <a id="ctl00_ContentMiddle_rptContent_ctl05_LinkButton1" href="javascript:__doPostBack('ctl00$ContentMiddle$rptContent$ctl05$LinkButton1','')"><img alt="" title="下载" src="images/iconG.jpg"></a>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td>
+                                <img src="images/iconLi.jpg">
+                            </td>
+                            <td class="libiao">
+                                
+                                <a id="ctl00_ContentMiddle_rptContent_ctl06_btnDownLoad" href="javascript:__doPostBack('ctl00$ContentMiddle$rptContent$ctl06$btnDownLoad','')">d t n l</a>
+                                <input type="hidden" name="ctl00$ContentMiddle$rptContent$ctl06$hidFileName" id="ctl00_ContentMiddle_rptContent_ctl06_hidFileName" value="20101216141822906拼音 d t n l.mp3">
+                                <input type="hidden" name="ctl00$ContentMiddle$rptContent$ctl06$hidID" id="ctl00_ContentMiddle_rptContent_ctl06_hidID" value="1389">
+                            </td>
+                            <td>
+                                <a style="cursor: pointer;" onclick="return Test('20101216141822906拼音 d t n l.mp3')">
+                                    <img title="试听" alt="" src="images/iconM.jpg"></a>
+                            </td>
+                            <td>
+                                <a id="ctl00_ContentMiddle_rptContent_ctl06_LinkButton1" href="javascript:__doPostBack('ctl00$ContentMiddle$rptContent$ctl06$LinkButton1','')"><img alt="" title="下载" src="images/iconG.jpg"></a>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td>
+                                <img src="images/iconLi.jpg">
+                            </td>
+                            <td class="libiao">
+                                
+                                <a id="ctl00_ContentMiddle_rptContent_ctl07_btnDownLoad" href="javascript:__doPostBack('ctl00$ContentMiddle$rptContent$ctl07$btnDownLoad','')">ao ou iu</a>
+                                <input type="hidden" name="ctl00$ContentMiddle$rptContent$ctl07$hidFileName" id="ctl00_ContentMiddle_rptContent_ctl07_hidFileName" value="20101216141745281拼音 ao ou iu.mp3">
+                                <input type="hidden" name="ctl00$ContentMiddle$rptContent$ctl07$hidID" id="ctl00_ContentMiddle_rptContent_ctl07_hidID" value="1388">
+                            </td>
+                            <td>
+                                <a style="cursor: pointer;" onclick="return Test('20101216141745281拼音 ao ou iu.mp3')">
+                                    <img title="试听" alt="" src="images/iconM.jpg"></a>
+                            </td>
+                            <td>
+                                <a id="ctl00_ContentMiddle_rptContent_ctl07_LinkButton1" href="javascript:__doPostBack('ctl00$ContentMiddle$rptContent$ctl07$LinkButton1','')"><img alt="" title="下载" src="images/iconG.jpg"></a>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td>
+                                <img src="images/iconLi.jpg">
+                            </td>
+                            <td class="libiao">
+                                
+                                <a id="ctl00_ContentMiddle_rptContent_ctl08_btnDownLoad" href="javascript:__doPostBack('ctl00$ContentMiddle$rptContent$ctl08$btnDownLoad','')">ang eng ing ong</a>
+                                <input type="hidden" name="ctl00$ContentMiddle$rptContent$ctl08$hidFileName" id="ctl00_ContentMiddle_rptContent_ctl08_hidFileName" value="20101216141416906拼音 ang eng ing ong.mp3">
+                                <input type="hidden" name="ctl00$ContentMiddle$rptContent$ctl08$hidID" id="ctl00_ContentMiddle_rptContent_ctl08_hidID" value="1387">
+                            </td>
+                            <td>
+                                <a style="cursor: pointer;" onclick="return Test('20101216141416906拼音 ang eng ing ong.mp3')">
+                                    <img title="试听" alt="" src="images/iconM.jpg"></a>
+                            </td>
+                            <td>
+                                <a id="ctl00_ContentMiddle_rptContent_ctl08_LinkButton1" href="javascript:__doPostBack('ctl00$ContentMiddle$rptContent$ctl08$LinkButton1','')"><img alt="" title="下载" src="images/iconG.jpg"></a>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td>
+                                <img src="images/iconLi.jpg">
+                            </td>
+                            <td class="libiao">
+                                
+                                <a id="ctl00_ContentMiddle_rptContent_ctl09_btnDownLoad" href="javascript:__doPostBack('ctl00$ContentMiddle$rptContent$ctl09$btnDownLoad','')">an en in un</a>
+                                <input type="hidden" name="ctl00$ContentMiddle$rptContent$ctl09$hidFileName" id="ctl00_ContentMiddle_rptContent_ctl09_hidFileName" value="20101216141323421拼音 an en in un un.mp3">
+                                <input type="hidden" name="ctl00$ContentMiddle$rptContent$ctl09$hidID" id="ctl00_ContentMiddle_rptContent_ctl09_hidID" value="1386">
+                            </td>
+                            <td>
+                                <a style="cursor: pointer;" onclick="return Test('20101216141323421拼音 an en in un un.mp3')">
+                                    <img title="试听" alt="" src="images/iconM.jpg"></a>
+                            </td>
+                            <td>
+                                <a id="ctl00_ContentMiddle_rptContent_ctl09_LinkButton1" href="javascript:__doPostBack('ctl00$ContentMiddle$rptContent$ctl09$LinkButton1','')"><img alt="" title="下载" src="images/iconG.jpg"></a>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td>
+                                <img src="images/iconLi.jpg">
+                            </td>
+                            <td class="libiao">
+                                
+                                <a id="ctl00_ContentMiddle_rptContent_ctl10_btnDownLoad" href="javascript:__doPostBack('ctl00$ContentMiddle$rptContent$ctl10$btnDownLoad','')">an en in un un</a>
+                                <input type="hidden" name="ctl00$ContentMiddle$rptContent$ctl10$hidFileName" id="ctl00_ContentMiddle_rptContent_ctl10_hidFileName" value="20101216111354375拼音 an en in un un.mp3">
+                                <input type="hidden" name="ctl00$ContentMiddle$rptContent$ctl10$hidID" id="ctl00_ContentMiddle_rptContent_ctl10_hidID" value="1385">
+                            </td>
+                            <td>
+                                <a style="cursor: pointer;" onclick="return Test('20101216111354375拼音 an en in un un.mp3')">
+                                    <img title="试听" alt="" src="images/iconM.jpg"></a>
+                            </td>
+                            <td>
+                                <a id="ctl00_ContentMiddle_rptContent_ctl10_LinkButton1" href="javascript:__doPostBack('ctl00$ContentMiddle$rptContent$ctl10$LinkButton1','')"><img alt="" title="下载" src="images/iconG.jpg"></a>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td>
+                                <img src="images/iconLi.jpg">
+                            </td>
+                            <td class="libiao">
+                                
+                                <a id="ctl00_ContentMiddle_rptContent_ctl11_btnDownLoad" href="javascript:__doPostBack('ctl00$ContentMiddle$rptContent$ctl11$btnDownLoad','')">b p m f</a>
+                                <input type="hidden" name="ctl00$ContentMiddle$rptContent$ctl11$hidFileName" id="ctl00_ContentMiddle_rptContent_ctl11_hidFileName" value="201012161113231拼音 b p m f.mp3">
+                                <input type="hidden" name="ctl00$ContentMiddle$rptContent$ctl11$hidID" id="ctl00_ContentMiddle_rptContent_ctl11_hidID" value="1384">
+                            </td>
+                            <td>
+                                <a style="cursor: pointer;" onclick="return Test('201012161113231拼音 b p m f.mp3')">
+                                    <img title="试听" alt="" src="images/iconM.jpg"></a>
+                            </td>
+                            <td>
+                                <a id="ctl00_ContentMiddle_rptContent_ctl11_LinkButton1" href="javascript:__doPostBack('ctl00$ContentMiddle$rptContent$ctl11$LinkButton1','')"><img alt="" title="下载" src="images/iconG.jpg"></a>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td>
+                                <img src="images/iconLi.jpg">
+                            </td>
+                            <td class="libiao">
+                                
+                                <a id="ctl00_ContentMiddle_rptContent_ctl12_btnDownLoad" href="javascript:__doPostBack('ctl00$ContentMiddle$rptContent$ctl12$btnDownLoad','')">ai ei ui</a>
+                                <input type="hidden" name="ctl00$ContentMiddle$rptContent$ctl12$hidFileName" id="ctl00_ContentMiddle_rptContent_ctl12_hidFileName" value="20101216111223765拼音 ai ei ui.mp3">
+                                <input type="hidden" name="ctl00$ContentMiddle$rptContent$ctl12$hidID" id="ctl00_ContentMiddle_rptContent_ctl12_hidID" value="1383">
+                            </td>
+                            <td>
+                                <a style="cursor: pointer;" onclick="return Test('20101216111223765拼音 ai ei ui.mp3')">
+                                    <img title="试听" alt="" src="images/iconM.jpg"></a>
+                            </td>
+                            <td>
+                                <a id="ctl00_ContentMiddle_rptContent_ctl12_LinkButton1" href="javascript:__doPostBack('ctl00$ContentMiddle$rptContent$ctl12$LinkButton1','')"><img alt="" title="下载" src="images/iconG.jpg"></a>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td>
+                                <img src="images/iconLi.jpg">
+                            </td>
+                            <td class="libiao">
+                                
+                                <a id="ctl00_ContentMiddle_rptContent_ctl13_btnDownLoad" href="javascript:__doPostBack('ctl00$ContentMiddle$rptContent$ctl13$btnDownLoad','')">a o e</a>
+                                <input type="hidden" name="ctl00$ContentMiddle$rptContent$ctl13$hidFileName" id="ctl00_ContentMiddle_rptContent_ctl13_hidFileName" value="2010121611114262拼音 a o e.mp3">
+                                <input type="hidden" name="ctl00$ContentMiddle$rptContent$ctl13$hidID" id="ctl00_ContentMiddle_rptContent_ctl13_hidID" value="1382">
+                            </td>
+                            <td>
+                                <a style="cursor: pointer;" onclick="return Test('2010121611114262拼音 a o e.mp3')">
+                                    <img title="试听" alt="" src="images/iconM.jpg"></a>
+                            </td>
+                            <td>
+                                <a id="ctl00_ContentMiddle_rptContent_ctl13_LinkButton1" href="javascript:__doPostBack('ctl00$ContentMiddle$rptContent$ctl13$LinkButton1','')"><img alt="" title="下载" src="images/iconG.jpg"></a>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td>
+                                <img src="images/iconLi.jpg">
+                            </td>
+                            <td class="libiao">
+                                
+                                <a id="ctl00_ContentMiddle_rptContent_ctl14_btnDownLoad" href="javascript:__doPostBack('ctl00$ContentMiddle$rptContent$ctl14$btnDownLoad','')">一岁宝宝故事</a>
+                                <input type="hidden" name="ctl00$ContentMiddle$rptContent$ctl14$hidFileName" id="ctl00_ContentMiddle_rptContent_ctl14_hidFileName" value="20101130141544957一岁宝宝故事.zip">
+                                <input type="hidden" name="ctl00$ContentMiddle$rptContent$ctl14$hidID" id="ctl00_ContentMiddle_rptContent_ctl14_hidID" value="1381">
+                            </td>
+                            <td>
+                                <a style="cursor: pointer;" onclick="return Test('20101130141544957一岁宝宝故事.zip')">
+                                    <img title="试听" alt="" src="images/iconM.jpg"></a>
+                            </td>
+                            <td>
+                                <a id="ctl00_ContentMiddle_rptContent_ctl14_LinkButton1" href="javascript:__doPostBack('ctl00$ContentMiddle$rptContent$ctl14$LinkButton1','')"><img alt="" title="下载" src="images/iconG.jpg"></a>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td>
+                                <img src="images/iconLi.jpg">
+                            </td>
+                            <td class="libiao">
+                                
+                                <a id="ctl00_ContentMiddle_rptContent_ctl15_btnDownLoad" href="javascript:__doPostBack('ctl00$ContentMiddle$rptContent$ctl15$btnDownLoad','')">海姑娘和他的儿子1</a>
+                                <input type="hidden" name="ctl00$ContentMiddle$rptContent$ctl15$hidFileName" id="ctl00_ContentMiddle_rptContent_ctl15_hidFileName" value="2010111515952459海姑娘和他的儿子2.zip">
+                                <input type="hidden" name="ctl00$ContentMiddle$rptContent$ctl15$hidID" id="ctl00_ContentMiddle_rptContent_ctl15_hidID" value="1379">
+                            </td>
+                            <td>
+                                <a style="cursor: pointer;" onclick="return Test('2010111515952459海姑娘和他的儿子2.zip')">
+                                    <img title="试听" alt="" src="images/iconM.jpg"></a>
+                            </td>
+                            <td>
+                                <a id="ctl00_ContentMiddle_rptContent_ctl15_LinkButton1" href="javascript:__doPostBack('ctl00$ContentMiddle$rptContent$ctl15$LinkButton1','')"><img alt="" title="下载" src="images/iconG.jpg"></a>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td>
+                                <img src="images/iconLi.jpg">
+                            </td>
+                            <td class="libiao">
+                                
+                                <a id="ctl00_ContentMiddle_rptContent_ctl16_btnDownLoad" href="javascript:__doPostBack('ctl00$ContentMiddle$rptContent$ctl16$btnDownLoad','')">海姑娘和他的儿子</a>
+                                <input type="hidden" name="ctl00$ContentMiddle$rptContent$ctl16$hidFileName" id="ctl00_ContentMiddle_rptContent_ctl16_hidFileName" value="20101115144928615海姑娘和他的儿子1.zip">
+                                <input type="hidden" name="ctl00$ContentMiddle$rptContent$ctl16$hidID" id="ctl00_ContentMiddle_rptContent_ctl16_hidID" value="1378">
+                            </td>
+                            <td>
+                                <a style="cursor: pointer;" onclick="return Test('20101115144928615海姑娘和他的儿子1.zip')">
+                                    <img title="试听" alt="" src="images/iconM.jpg"></a>
+                            </td>
+                            <td>
+                                <a id="ctl00_ContentMiddle_rptContent_ctl16_LinkButton1" href="javascript:__doPostBack('ctl00$ContentMiddle$rptContent$ctl16$LinkButton1','')"><img alt="" title="下载" src="images/iconG.jpg"></a>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td>
+                                <img src="images/iconLi.jpg">
+                            </td>
+                            <td class="libiao">
+                                
+                                <a id="ctl00_ContentMiddle_rptContent_ctl17_btnDownLoad" href="javascript:__doPostBack('ctl00$ContentMiddle$rptContent$ctl17$btnDownLoad','')">一千零一夜</a>
+                                <input type="hidden" name="ctl00$ContentMiddle$rptContent$ctl17$hidFileName" id="ctl00_ContentMiddle_rptContent_ctl17_hidFileName" value="20101115143743771一千零一夜.zip">
+                                <input type="hidden" name="ctl00$ContentMiddle$rptContent$ctl17$hidID" id="ctl00_ContentMiddle_rptContent_ctl17_hidID" value="1377">
+                            </td>
+                            <td>
+                                <a style="cursor: pointer;" onclick="return Test('20101115143743771一千零一夜.zip')">
+                                    <img title="试听" alt="" src="images/iconM.jpg"></a>
+                            </td>
+                            <td>
+                                <a id="ctl00_ContentMiddle_rptContent_ctl17_LinkButton1" href="javascript:__doPostBack('ctl00$ContentMiddle$rptContent$ctl17$LinkButton1','')"><img alt="" title="下载" src="images/iconG.jpg"></a>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td>
+                                <img src="images/iconLi.jpg">
+                            </td>
+                            <td class="libiao">
+                                
+                                <a id="ctl00_ContentMiddle_rptContent_ctl18_btnDownLoad" href="javascript:__doPostBack('ctl00$ContentMiddle$rptContent$ctl18$btnDownLoad','')">唐诗10首</a>
+                                <input type="hidden" name="ctl00$ContentMiddle$rptContent$ctl18$hidFileName" id="ctl00_ContentMiddle_rptContent_ctl18_hidFileName" value="2010111210613628古诗词.zip">
+                                <input type="hidden" name="ctl00$ContentMiddle$rptContent$ctl18$hidID" id="ctl00_ContentMiddle_rptContent_ctl18_hidID" value="1376">
+                            </td>
+                            <td>
+                                <a style="cursor: pointer;" onclick="return Test('2010111210613628古诗词.zip')">
+                                    <img title="试听" alt="" src="images/iconM.jpg"></a>
+                            </td>
+                            <td>
+                                <a id="ctl00_ContentMiddle_rptContent_ctl18_LinkButton1" href="javascript:__doPostBack('ctl00$ContentMiddle$rptContent$ctl18$LinkButton1','')"><img alt="" title="下载" src="images/iconG.jpg"></a>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td>
+                                <img src="images/iconLi.jpg">
+                            </td>
+                            <td class="libiao">
+                                
+                                <a id="ctl00_ContentMiddle_rptContent_ctl19_btnDownLoad" href="javascript:__doPostBack('ctl00$ContentMiddle$rptContent$ctl19$btnDownLoad','')">英文儿歌</a>
+                                <input type="hidden" name="ctl00$ContentMiddle$rptContent$ctl19$hidFileName" id="ctl00_ContentMiddle_rptContent_ctl19_hidFileName" value="20101111124215675低幼英文.zip">
+                                <input type="hidden" name="ctl00$ContentMiddle$rptContent$ctl19$hidID" id="ctl00_ContentMiddle_rptContent_ctl19_hidID" value="1375">
+                            </td>
+                            <td>
+                                <a style="cursor: pointer;" onclick="return Test('20101111124215675低幼英文.zip')">
+                                    <img title="试听" alt="" src="images/iconM.jpg"></a>
+                            </td>
+                            <td>
+                                <a id="ctl00_ContentMiddle_rptContent_ctl19_LinkButton1" href="javascript:__doPostBack('ctl00$ContentMiddle$rptContent$ctl19$LinkButton1','')"><img alt="" title="下载" src="images/iconG.jpg"></a>
+                            </td>
+                        </tr>
+                    
+            </tbody></table>
+            <div id="ctl00_ContentMiddle_divPageBtn" class="content-btn"><div align="center"><a onclick="javascript:window.location.href='/Web/MKX/Default.aspx?Page=1'" href="javascript:void(1);">1</a>&nbsp;<a onclick="javascript:window.location.href='/Web/MKX/Default.aspx?Page=2'" href="javascript:void(2);">2</a>&nbsp;<a onclick="javascript:window.location.href='/Web/MKX/Default.aspx?Page=3'" href="javascript:void(3);">3</a>&nbsp;<a onclick="javascript:window.location.href='/Web/MKX/Default.aspx?Page=4'" href="javascript:void(4);">4</a>&nbsp;<a onclick="javascript:window.location.href='/Web/MKX/Default.aspx?Page=5'" href="javascript:void(5);">5</a>&nbsp;<a onclick="javascript:window.location.href='/Web/MKX/Default.aspx?Page=6'" href="javascript:void(6);">6</a>&nbsp;<a onclick="javascript:window.location.href='/Web/MKX/Default.aspx?Page=7'" href="javascript:void(7);">7</a>&nbsp;<a onclick="javascript:window.location.href='/Web/MKX/Default.aspx?Page=8'" href="javascript:void(8);">8</a>&nbsp;<a onclick="javascript:window.location.href='/Web/MKX/Default.aspx?Page=9'" href="javascript:void(9);">9</a>&nbsp;<a onclick="javascript:window.location.href='/Web/MKX/Default.aspx?Page=10'" href="javascript:void(10);">10</a>&nbsp;<a onclick="javascript:window.location.href='/Web/MKX/Default.aspx?Page=2'" href="javascript:void(2);"><img title="next page" alt="" src="images/contentLi_66.jpg"></a>&nbsp;<a onclick="javascript:window.location.href='/Web/MKX/Default.aspx?Page=67'" href="javascript:void(67);"><img title="last page" alt="" src="images/weiye1.gif"></a>&nbsp;</div></div>
+            <div class="content-bot">
+            </div>
+        </div>
+    </div>
+
+
+        <div id="Right">
+            <div class="login" style="margin-top: 25px; min-height: 175px; height:auto; _height: 156px;">
+                <div class="login-top">
+                </div>
+                <div class="login-tit">
+                </div>
+                <div class="login-con" style="min-height: 110px; height:auto;_height:105px;">
+                    <div id="ctl00_divLogin">
+                        <img alt="" src="images/denglu.jpg">
+                        <p style="margin-left: 45px;">
+                            visitors</p>
+                        <span class="login-font" style="text-align: right;">
+                            <p class="img">
+                            </p>
+                            <p style="margin-top: -10px;">
+                                Early Learning Partners<br>
+                                Supporting your child's happines</p>
+                            <input class="login-btn2" type="button" onclick="javascript:window.location.href='/Admin/Main.aspx'" name="btnSubmit" value="Login">
+                            <input class="login-btn2" type="button" onclick="javascript:window.location.href='/Admin/UserAdd.aspx'" name="btnSubmit" value="Register">
+                        </span>
+                    </div>
+                    
+                </div>
+                <div class="login-bot" style="margin-top: -10px;">
+                </div>
+            </div>
+            
+        <div class="login" style="margin-top: 3px; height: 282px;">
+            <div class="login-top">
+            </div>
+            <div class="classroom-tit">
+            </div>
+            <ul class="classroom-con">
+                <li><a href="https://web.archive.org/web/20110203081734/http://www.momcoo.com/Web/download/maku_Instructions.rar">maku Bears E-Manual</a></li>
+                <li><a href="https://web.archive.org/web/20110203081734/http://www.momcoo.com/Web/download/maku.rar">maku bear Software Download</a></li>
+                <li><a href="https://web.archive.org/web/20110203081734/http://www.tudou.com/programs/view/TP6vu74O-gg/" target="_blank">software instalation tutorial</a></li>
+                <li><a href="https://web.archive.org/web/20110203081734/http://www.tudou.com/programs/view/rkffZU-zNDM/" target="_blank">how to use Maku software</a></li>
+                <li><a href="https://web.archive.org/web/20110203081734/http://www.tudou.com/programs/view/2b06bjToLlg/" target="_blank">how to use maku.com</a></li>
+                <li><a href="https://web.archive.org/web/20110203081734/http://www.tudou.com/programs/view/ryNgfblioC0/" target="_blank">basic operation of maku Bear</a></li>
+		<li><a href="https://web.archive.org/web/20110203081734/http://www.tudou.com/programs/view/CmFDvHfwBY4/" target="_blank">Movie Maker Tutorials</a></li>
+            </ul>
+            <div class="login-bot">
+            </div>
+        </div>
+        <div class="login" style="margin-top: 10px; _margin-top: 3px; height: 152px;">
+            <div class="login-top">
+            </div>
+            <div class="boyin-upload">
+            </div>
+            <div class="boyin-con">
+                <img style="margin-left: 32px;" src="images/boyin-upload_75.jpg"><br>
+                <input class="login-btn" style="margin-left: 155px;" type="button" name="btnSubmit" onclick="javascript:window.open('/Admin/Login.aspx');" value="join">
+            </div>
+            <div class="login-bot">
+            </div>
+        </div>
+        <div class="login" style="margin-top: 13px; _margin-top: 3px; height: 275px;">
+            <div class="login-top">
+            </div>
+            <div class="event-tit">
+                <input class="event-btn" style="margin-left: 155px; *margin-left: 140px;" type="button" name="btnSubmit" value="Read more">
+            </div>
+            <div class="event-con">
+                <img src="images/event_90.jpg">
+                <p>
+                    Experience adidas yoga to create the perfect body!</p>
+            </div>
+            <div class="login-bot">
+            </div>
+        </div>
+        <div class="right-adver">
+		<a href="https://web.archive.org/web/20110203081734/http://www.pigeon.sh.cn/" target="_blank"><img src="images/Logining_adver.gif"></a>
+        </div>
+    </div>
+    <div class="blank5">
+    </div>
+        <div class="Footer">
+            <a href="/maku%20restoration/pages/about%20maku.com">About Maku.com</a> | <a href="/maku%20restoration/pages/contact%20us">Contact Us</a> |
+            <a href="/maku%20restoration/pages/disclaimer/">disclaimer</a> | <a href="/maku%20restoration/pages/affiliates/">Business</a> |
+            <a href="/maku%20restoration/pages/customer%20service/">Customer Service</a> | <a href="/maku%20restoration/pages/friendly%20links">Friendly Link</a>
+            <p>Copyright © 2009-2010 Softtel All Rights Reserved. Shanghai Xitao Trespa Digital Technology Co.</p>
+	      <p class="iport"><a href="https://web.archive.org/web/20110203081734/http://www.miitbeian.gov.cn/" target="_blank">Shanghai ICP 10025281</a></p>
+        </div>
+        <div class="blank5">
+        </div>
+    </div>
+    
+    </form>
+
+
+
+</body></html><!--
