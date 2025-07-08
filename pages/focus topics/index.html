@@ -1,0 +1,731 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml"><head><script src="js/athena.js" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app215.us.archive.org';v.server_ms=1406;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript" src="js/bundle-playback.js" charset="utf-8"></script>
+<script type="text/javascript" src="js/wombat.js" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden","showSwfDownload":true};</script>
+<script type="text/javascript" src="js/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://www.momcoo.com:80/Web/huati/Default.aspx","20110303085755","https://web.archive.org/","web","https://web-static.archive.org/_static/",
+	      "1299142675");
+</script>
+<link rel="stylesheet" type="text/css" href="css/banner-styles.css">
+<link rel="stylesheet" type="text/css" href="css/iconochive.css">
+<!-- End Wayback Rewrite JS Include -->
+<title>
+	Maku.com
+</title><meta name="title" content="Maku.com--Mother and child education exchange platform"><meta name="description" content="Maku.com is a social network platform for parents of infants and toddlers aged 0-6 years old to provide communication services, where users can share audio-visual works that help infants and toddlers to grow and educate themselves, record their children's growth experiences, share their pregnancy and parenting experiences, and discuss life topics."><meta name="keywords" content="Maku.com, Maku Bear, Maternal and Child Education, Infant and Toddler Education, Parenting Communication, Parenting Knowledge"><meta http-equiv="Content-Type" content="text/html; charset=gb2312"><meta http-equiv="X-UA-Compatible" content="IE=7"><link href="css/i-style.css" type="text/css" rel="stylesheet">
+    <style type="text/css">
+        <!--
+        .btn-bg
+        {
+            background: url(maku%20restoration/pages/focus%20topics/images/flash-bg_45.jpg) no-repeat;
+            height: 28px;
+            text-align: center;
+            padding: 0 30px;
+        }
+        .login-font p
+        {
+            /*Login*/
+            margin-top: 0px;
+            color: #999;
+            line-height: 18px;
+        }
+        .inputLogin
+        {
+            /*Login*/
+            margin: 0px 0px 0px 4px;
+            border: 1px solid #7f9db9;
+            width: 110px;
+            height: 16px;
+            background: #fff;
+            color: #999;
+            _margin-bottom: 5px;
+        }
+        .login-btn2
+        {
+            /*Login*/
+            background: url(images/denglu_btn.jpg) no-repeat;
+            width: 72px;
+            height: 23px;
+            line-height: 23px;
+            margin-left: 14px;
+            cursor: pointer;
+            color: #fff;
+            margin-top: -10px;
+        }
+        .login-font .img
+        {
+            background: url(images/login_pic_38.jpg) no-repeat;
+            width: 144px;
+            height: 18px;
+            margin-top: 0px; *margin-top:15px;
+        }
+        .logon-font{
+         margin-left:0px;
+         width:150px;
+	     margin-top:-105px;
+         float:right;
+	     color:#b4b4b4;
+	     line-height:17px;
+        }
+       .logon-font a
+       {
+         margin-right:10px;
+         margin-top:5px;
+       }
+        -->
+        </style>
+        <script type="text/javascript">
+            function Search() {
+                location.href = "Default.aspx";
+            }
+</script>
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <title>妈酷网</title>
+    <link href="css/i-style.css" type="text/css" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="/js/jquery_dialog.css">
+
+    <script type="text/javascript" src="/js/jquery.js"></script>
+
+    <script type="text/javascript" src="/js/jquery_dialog.css"></script>
+
+    <script type="text/javascript">
+        var roll_image = new Array;
+        var image_link = new Array;
+        var small_img = new Array;
+
+        roll_image[0] = 'images/01.jpg';
+        image_link[0] = "https://web.archive.org/web/20110303085755/http://www.lorealchina.com";
+        small_img[0] = 'images/main_flash_button1_on.gif';
+
+        roll_image[1] = 'images/02.jpg';
+        image_link[1] = "https://web.archive.org/web/20110303085755/http://www.lorealchina.com";
+        small_img[1] = 'images/main_flash_button2_on.gif';
+
+        roll_image[2] = 'images/03.jpg';
+        image_link[2] = "https://web.archive.org/web/20110303085755/http://www.lorealchina.com";
+        small_img[2] = 'images/main_flash_button3_on.gif';
+
+        roll_image[3] = 'images/04.jpg';
+        image_link[3] = "https://web.archive.org/web/20110303085755/http://www.lorealchina.com";
+        small_img[3] = 'images/main_flash_button4_on.gif';
+
+
+
+        var cliImg = '';
+        var cliImgSrc = '';
+        var imgNo = Math.round(Math.random() * 7);
+
+        var interval = 3000;
+        var setTime = '';
+
+        function click_simg(ci, no) {
+            var pImg = document.all.bigimg;
+            var pLink = document.all.imglink;
+
+            if (cliImg == '') {
+                cliImg = ci;
+                cliImgSrc = ci.src;
+                ci.src = small_img[no];
+                imgNo = no;
+                pImg.src = roll_image[no];
+                pLink.href = image_link[no];
+            } else if (cliImg != ci) {
+                cliImg.src = cliImgSrc;
+                cliImg = ci;
+                cliImgSrc = ci.src;
+                ci.src = small_img[no];
+                imgNo = no;
+                pImg.src = roll_image[no];
+                pLink.href = image_link[no];
+            }
+            clearTimeout(setTime);
+            setTime = setTimeout("rotate()", interval);
+        }
+
+        function rotate() {
+            imgNo = (imgNo >= 3) ? 0 : imgNo + 1;
+            var ci = eval('document.all.num_img' + imgNo);
+
+            document.all.bigimg.filters.blendTrans.apply();
+            document.all.imglink.href = image_link[imgNo];
+            document.all.bigimg.src = roll_image[imgNo];
+            document.all.bigimg.filters.blendTrans.play();
+
+            if (cliImg == '') {
+                cliImg = ci;
+                cliImgSrc = ci.src;
+                ci.src = small_img[imgNo];
+            } else if (cliImg != ci) {
+                cliImg.src = cliImgSrc;
+                cliImg = ci;
+                cliImgSrc = ci.src;
+                ci.src = small_img[imgNo];
+            }
+
+            setTime = setTimeout("rotate()", interval);
+        }
+
+        //-->
+    </script>
+
+    <style type="text/css">
+        <!
+        -- .btn-bg
+        {
+            background: url(/maku%20restoration/pages/focus%20topics/images/nav-bg.jpg) no-repeat;
+            height: 28px;
+            text-align: center;
+            padding: 0 30px;
+        }
+        .upload-news
+        {
+            font-size: 12px;
+            width: 200px; *width:203px;height:290px;margin:4px2px2px4px;table-layout:fixed;}
+        .upload-news li
+        {
+            height: 30px;
+            border-bottom: 1px dashed #87b9bb;
+            margin-left: 7px;
+            width: 97%;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+        }
+        .upload-news a
+        {
+            color: #4d7078;
+            margin-left: 5px;
+            line-height: 30px;
+        }
+        .upload-news a:hover
+        {
+            text-decoration: underline;
+        }
+        .shishang-tit
+        {
+            margin: 10px 10px 10px 22px;
+            background: url(/web/20110303085755im_/http://www.momcoo.com/Web/huati/images/huati_contitle.jpg) no-repeat;
+            width: 417px;
+            height: 70px;
+        }
+        /*-------------------navigation变色------------------*/.Nl-huati, .Nm-huati, .Nr-huati
+        {
+            margin: 0px;
+            height: 119px;
+            float: left;
+        }
+        .Nl-huati
+        {
+            background: url(/web/20110303085755im_/http://www.momcoo.com/Web/huati/images/huati_07BS.jpg) no-repeat;
+            width: 8px;
+        }
+        .Nm-huati
+        {
+            background: url(/web/20110303085755im_/http://www.momcoo.com/Web/huati/images/huati_08BS.jpg) repeat-x;
+            width: 974px;
+        }
+        .Nr-huati
+        {
+            background: url(/web/20110303085755im_/http://www.momcoo.com/Web/huati/images/huati_10BS.jpg) no-repeat;
+            width: 8px;
+        }
+        .nav-huati
+        {
+            margin: 8px 30px;
+            float: left;
+            background: url(/maku%20restoration/pages/focus%20topics/images/nav-bg.jpg) no-repeat;
+            height: 100px;
+            width: 610px;
+        }
+        .nav-huati a
+        {
+            display: inline;
+            padding: 0px 38px 0px 22px; *+padding:0px35px0px21px;_padding:0px39px0px22px;font-size:14px;color:#fff;font-weight:bold;line-height:185px;}
+        .nav-huati a:hover
+        {
+            color: #ff9226;
+        }
+        -- ></style>
+</head>
+
+ 
+    <form name="aspnetForm" method="post" action="Default.aspx" id="aspnetForm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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YXVsdC5hc3B4P1BhZ2U9NSciIGhyZWY9J2phdmFzY3JpcHQ6dm9pZCg1KTsnPjU8L2E+Jm5ic3A7PGEgb25jbGljaz0iamF2YXNjcmlwdDp3aW5kb3cubG9jYXRpb24uaHJlZj0nL1dlYi9odWF0aS9EZWZhdWx0LmFzcHg/UGFnZT02JyIgaHJlZj0namF2YXNjcmlwdDp2b2lkKDYpOyc+NjwvYT4mbmJzcDs8YSBvbmNsaWNrPSJqYXZhc2NyaXB0OndpbmRvdy5sb2NhdGlvbi5ocmVmPScvV2ViL2h1YXRpL0RlZmF1bHQuYXNweD9QYWdlPTInIiBocmVmPSdqYXZhc2NyaXB0OnZvaWQoMik7Jz48aW1nIHRpdGxlPSfkuIvkuIDpobUnIGFsdD0iIiBzcmM9ImltYWdlcy9jb250ZW50TGlfNjYuanBnIiAvPjwvYT4mbmJzcDs8YSBvbmNsaWNrPSJqYXZhc2NyaXB0OndpbmRvdy5sb2NhdGlvbi5ocmVmPScvV2ViL2h1YXRpL0RlZmF1bHQuYXNweD9QYWdlPTYnIiBocmVmPSdqYXZhc2NyaXB0OnZvaWQoNik7Jz48aW1nIHRpdGxlPSflsL7pobUnIGFsdD0iIiBzcmM9ImltYWdlcy93ZWl5ZTEuZ2lmIiAvPjwvYT4mbmJzcDs8L2Rpdj5kZF/9PCKKKiqX7VOHj2UPlkMOpObo">
+
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWAwLpytjMBALTivHfDQKQkM2HCmJ5tNTAToqEmyJucrRS6j8yjAZD">
+    <div id="container">
+        <div id="Top">
+            <div class="pad">
+                <div class="nav">
+                    <a href="/web/20110303085755/http://www.momcoo.com/Web/index.html">
+                        homepage</a><a href="/web/20110303085755/http://www.momcoo.com/Admin/Main.aspx">account</a>
+                    <a href="/web/20110303085755/http://www.momcoo.com/Web/Help/assistant.aspx">Service</a></div>
+                <span class="fl"><a href="/maku%20restoration" title="maku">
+                    <img alt="" src="/maku%20restoration"></a></span>
+            </div>
+        </div>
+    </div>
+    <div class="blank5">
+    </div>
+    <div id="Main">
+        <div class="blank5">
+        </div>
+        <div id="Navigation">
+            <div class="Nl">
+            </div>
+            <div class="Nm">
+              <span class="nav-bg"><a href="/maku%20restoration/">
+                    maku bear</a><a href="/maku%20restoration/pages/focus%20topics">focus topics</a><a href="/maku%20restoration/pages/buy%20maku%20bear">buy maku bear</a><a href="javascript:alert('Please understand the inconvenience caused by the test!');">teaching</a> <a href="javascript:alert('Please understand the inconvenience caused by the test!');">Activity Area</a>
+                </span><span class="search">
+                    <input name="ctl00$key" type="text" id="ctl00_key" class="inputStyle">
+                    <input class="btn" type="submit" name="btnSubmit" value="" onclick="return Search()">
+                </span>
+            </div>
+            <div class="Nr">
+            </div>
+        </div>
+        
+    <div id="Left">
+        <ul class="sub_nav" style="height: 290px;">
+            
+                    <li><a href="Default.aspx?type=19">
+                        时尚妈妈最最酷</a></li>
+                
+                    <li><a href="Default.aspx?type=20">
+                        娱乐八卦随便聊</a></li>
+                
+                    <li><a href="Default.aspx?type=21">
+                        温馨家居我的家</a></li>
+                
+                    <li><a href="Default.aspx?type=22">
+                        投资理财大家发</a></li>
+                
+                    <li><a href="Default.aspx?type=23">
+                        我的宝宝我的爱</a></li>
+                
+                    <li><a href="Default.aspx?type=24">
+                        周游世界也疯狂</a></li>
+                
+                    <li><a href="Default.aspx?type=25">
+                        健康保健有点烦</a></li>
+                
+                    <li><a href="Default.aspx?type=26">
+                        美食厨艺就怕胖</a></li>
+                
+                    <li><a href="Default.aspx?type=27">
+                        艺术人文要低调</a></li>
+                
+                    <li><a href="Default.aspx?type=28">
+                        社区生活五味谈</a></li>
+                
+        </ul>
+        <div class="sub_blank" style="height: 26px; background: url(/maku%20restoration/pages/focus%20topics/images/left_blank.jpg);">
+        </div>
+        <div class="upload" style="height: 338px; _height: 300px;">
+            <div class="blank5" style="background: #fff;">
+            </div>
+            <div class="upload-tit" style="background: #ff9226; line-height: 38px; padding-left: 12px;">
+                妈酷快讯</div>
+            <ul class="upload-news">
+               
+                 <li><a title="孟庭苇的育儿经" style="cursor:pointer;" onclick="JqueryDialog.Open('', '/Web/HuaTi/Show.aspx?id=226', 740, 420);">孟庭苇的育儿经</a></li>
+                
+                 <li><a title="孕妈要小心“人为”难产" style="cursor:pointer;" onclick="JqueryDialog.Open('', '/Web/HuaTi/Show.aspx?id=225', 740, 420);">孕妈要小心“人为”难..</a></li>
+                
+                 <li><a title="健康家居主打白色调 合理选色慎用吊灯" style="cursor:pointer;" onclick="JqueryDialog.Open('', '/Web/HuaTi/Show.aspx?id=224', 740, 420);">健康家居主打白色调 ..</a></li>
+                
+                 <li><a title="宝贝新春出街必备防寒小物 " style="cursor:pointer;" onclick="JqueryDialog.Open('', '/Web/HuaTi/Show.aspx?id=222', 740, 420);">宝贝新春出街必备防寒..</a></li>
+                
+                 <li><a title="宝宝脑发育5大必需营养素" style="cursor:pointer;" onclick="JqueryDialog.Open('', '/Web/HuaTi/Show.aspx?id=221', 740, 420);">宝宝脑发育5大必需营..</a></li>
+                
+                 <li><a title="6个月大女婴竟来月经 又是奶粉吗？" style="cursor:pointer;" onclick="JqueryDialog.Open('', '/Web/HuaTi/Show.aspx?id=220', 740, 420);">6个月大女婴竟来月经..</a></li>
+                
+                 <li><a title="把握四大最佳生育时机" style="cursor:pointer;" onclick="JqueryDialog.Open('', '/Web/HuaTi/Show.aspx?id=219', 740, 420);">把握四大最佳生育时机</a></li>
+                
+                 <li><a title="超火爆亲子装" style="cursor:pointer;" onclick="JqueryDialog.Open('', '/Web/HuaTi/Show.aspx?id=218', 740, 420);">超火爆亲子装</a></li>
+                
+                <li style="border: 0px; text-align: right">
+                    <input onclick="javascript:location.href='/Web/HuaTi/Default.aspx'" class="login-btn" type="button" name="btnSubmit" value="详细内容">
+                </li>
+            </ul>
+        </div>
+        <div class="adver" style="background: #08ccb8; border:none; height: 524px; _height: 530px;">
+            <a href="https://web.archive.org/web/20110303085755/http://www.johnsonsbaby.com.cn/" target="_blank"><img src="/maku%20restoration/pages/focus%20topics/images/left_ad.gif"></a>
+        </div>
+    </div>
+
+        
+    <div id="Middle">
+        <p class="tit-font">
+            <a href="javascript:void(0)">主页</a> > <a href="Default.aspx">焦点话题</a> ><span id="ctl00_ContentMiddle_lblTitleLink"></span> </p>
+        <div class="Fimg-bg">
+            <div class="Fimg-top">
+            </div>
+            <div class="Flash">
+                <table cellspacing="0" cellpadding="0" width="432" border="0">
+                    <tbody>
+                        <tr>
+                            <td height="240">
+                                <a onfocus="this.blur()" href="#" target="_blank" name="imglink">
+                                    <img style="filter: blendTrans(duration=1)" height="240" src="/maku%20restoration/pages/focus%20topics/images/01.jpg" width="432" border="0" name="bigimg"></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height="30">
+                                <table cellspacing="0" cellpadding="0" width="100%" border="0">
+                                    <tbody>
+                                        <tr class="btn-bg">
+                                            <td width="65">
+                                            </td>
+                                            <td width="26">
+                                                <img style="cursor: hand" onclick="click_simg(this, 0);" height="17" src="/maku%20restoration/pages/focus%20topics/images/main_flash_button1.gif" width="25" border="0" name="num_img0">
+                                            </td>
+                                            <td width="26">
+                                                <img style="cursor: hand" onclick="click_simg(this, 1);" height="17" src="/maku%20restoration/pages/focus%20topics/images/main_flash_button2.gif" width="25" border="0" name="num_img1">
+                                            </td>
+                                            <td width="26">
+                                                <img style="cursor: hand" onclick="click_simg(this, 2);" height="17" src="/maku%20restoration/pages/focus%20topics/images/main_flash_button3.gif" width="25" border="0" name="num_img2">
+                                            </td>
+                                            <td width="26">
+                                                <img style="cursor: hand" onclick="click_simg(this, 3);" height="17" src="/maku%20restoration/pages/focus%20topics/images/main_flash_button4.gif" width="25" border="0" name="num_img3">
+                                            </td>
+                                            <td width="40">
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <script>                    rotate();</script>
+
+            </div>
+            <div class="Fimg-bot">
+            </div>
+        </div>
+        <div class="content">
+            <div class="content-top">
+            </div>
+            <div id="ctl00_ContentMiddle_divTypeImg" class="shishang-tit">
+            </div>
+            <table class="content-li">
+                
+                        <tbody><tr>
+                            <td>
+                                <img src="/maku%20restoration/pages/focus%20topics/images/iconLi.jpg">
+                            </td>
+                            <td class="libiao">
+                                <a style="cursor:pointer;" onclick="JqueryDialog.Open('', 'Show.aspx?id=226', 740, 420);">
+                                    孟庭苇的育儿经</a>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td>
+                                <img src="/maku%20restoration/pages/focus%20topics/images/iconLi.jpg">
+                            </td>
+                            <td class="libiao">
+                                <a style="cursor:pointer;" onclick="JqueryDialog.Open('', 'Show.aspx?id=225', 740, 420);">
+                                    孕妈要小心“人为”难产</a>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td>
+                                <img src="/maku%20restoration/pages/focus%20topics/images/iconLi.jpg">
+                            </td>
+                            <td class="libiao">
+                                <a style="cursor:pointer;" onclick="JqueryDialog.Open('', 'Show.aspx?id=224', 740, 420);">
+                                    健康家居主打白色调 合理选色慎用吊灯</a>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td>
+                                <img src="/maku%20restoration/pages/focus%20topics/images/iconLi.jpg">
+                            </td>
+                            <td class="libiao">
+                                <a style="cursor:pointer;" onclick="JqueryDialog.Open('', 'Show.aspx?id=222', 740, 420);">
+                                    宝贝新春出街必备防寒小物 </a>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td>
+                                <img src="/maku%20restoration/pages/focus%20topics/images/iconLi.jpg">
+                            </td>
+                            <td class="libiao">
+                                <a style="cursor:pointer;" onclick="JqueryDialog.Open('', 'Show.aspx?id=221', 740, 420);">
+                                    宝宝脑发育5大必需营养素</a>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td>
+                                <img src="/maku%20restoration/pages/focus%20topics/images/iconLi.jpg">
+                            </td>
+                            <td class="libiao">
+                                <a style="cursor:pointer;" onclick="JqueryDialog.Open('', 'Show.aspx?id=220', 740, 420);">
+                                    6个月大女婴竟来月经 又是奶粉吗？</a>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td>
+                                <img src="/maku%20restoration/pages/focus%20topics/images/iconLi.jpg">
+                            </td>
+                            <td class="libiao">
+                                <a style="cursor:pointer;" onclick="JqueryDialog.Open('', 'Show.aspx?id=219', 740, 420);">
+                                    把握四大最佳生育时机</a>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td>
+                                <img src="/maku%20restoration/pages/focus%20topics/images/iconLi.jpg">
+                            </td>
+                            <td class="libiao">
+                                <a style="cursor:pointer;" onclick="JqueryDialog.Open('', 'Show.aspx?id=218', 740, 420);">
+                                    超火爆亲子装</a>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td>
+                                <img src="/maku%20restoration/pages/focus%20topics/images/iconLi.jpg">
+                            </td>
+                            <td class="libiao">
+                                <a style="cursor:pointer;" onclick="JqueryDialog.Open('', 'Show.aspx?id=217', 740, 420);">
+                                    孕期必做之事时间安排计划</a>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td>
+                                <img src="/maku%20restoration/pages/focus%20topics/images/iconLi.jpg">
+                            </td>
+                            <td class="libiao">
+                                <a style="cursor:pointer;" onclick="JqueryDialog.Open('', 'Show.aspx?id=216', 740, 420);">
+                                    百变兔宝宝兔年送吉祥</a>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td>
+                                <img src="/maku%20restoration/pages/focus%20topics/images/iconLi.jpg">
+                            </td>
+                            <td class="libiao">
+                                <a style="cursor:pointer;" onclick="JqueryDialog.Open('', 'Show.aspx?id=209', 740, 420);">
+                                    初秋别猛吃 当心难保持原有的身材曲线</a>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td>
+                                <img src="/maku%20restoration/pages/focus%20topics/images/iconLi.jpg">
+                            </td>
+                            <td class="libiao">
+                                <a style="cursor:pointer;" onclick="JqueryDialog.Open('', 'Show.aspx?id=206', 740, 420);">
+                                    破解宝贝的心情密码</a>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td>
+                                <img src="/maku%20restoration/pages/focus%20topics/images/iconLi.jpg">
+                            </td>
+                            <td class="libiao">
+                                <a style="cursor:pointer;" onclick="JqueryDialog.Open('', 'Show.aspx?id=204', 740, 420);">
+                                    如何鉴别宝宝的奶粉质量</a>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td>
+                                <img src="/maku%20restoration/pages/focus%20topics/images/iconLi.jpg">
+                            </td>
+                            <td class="libiao">
+                                <a style="cursor:pointer;" onclick="JqueryDialog.Open('', 'Show.aspx?id=198', 740, 420);">
+                                    气温的变化</a>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td>
+                                <img src="/maku%20restoration/pages/focus%20topics/images/iconLi.jpg">
+                            </td>
+                            <td class="libiao">
+                                <a style="cursor:pointer;" onclick="JqueryDialog.Open('', 'Show.aspx?id=193', 740, 420);">
+                                    最强的排毒食物，吃了皮肤瞬间变好</a>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td>
+                                <img src="/maku%20restoration/pages/focus%20topics/images/iconLi.jpg">
+                            </td>
+                            <td class="libiao">
+                                <a style="cursor:pointer;" onclick="JqueryDialog.Open('', 'Show.aspx?id=190', 740, 420);">
+                                    未婚女性常见妇科病</a>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td>
+                                <img src="/maku%20restoration/pages/focus%20topics/images/iconLi.jpg">
+                            </td>
+                            <td class="libiao">
+                                <a style="cursor:pointer;" onclick="JqueryDialog.Open('', 'Show.aspx?id=189', 740, 420);">
+                                    10条女人必知的妇科常识</a>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td>
+                                <img src="/maku%20restoration/pages/focus%20topics/images/iconLi.jpg">
+                            </td>
+                            <td class="libiao">
+                                <a style="cursor:pointer;" onclick="JqueryDialog.Open('', 'Show.aspx?id=188', 740, 420);">
+                                    怀孕期间容易得的妇科病</a>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td>
+                                <img src="/maku%20restoration/pages/focus%20topics/images/iconLi.jpg">
+                            </td>
+                            <td class="libiao">
+                                <a style="cursor:pointer;" onclick="JqueryDialog.Open('', 'Show.aspx?id=187', 740, 420);">
+                                    十类妇科病引发不孕的原因</a>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td>
+                                <img src="/maku%20restoration/pages/focus%20topics/images/iconLi.jpg">
+                            </td>
+                            <td class="libiao">
+                                <a style="cursor:pointer;" onclick="JqueryDialog.Open('', 'Show.aspx?id=185', 740, 420);">
+                                    This year's Mid-Autumn National Day holiday “the most fragmented” is divided into eight ...</a>
+                            </td>
+                        </tr>
+                    
+            </tbody></table>
+                <div id="ctl00_ContentMiddle_divPageBtn" class="content-btn"><div align="center"><a onclick="javascript:window.location.href='/Web/huati/Default.aspx?Page=1'" href="javascript:void(1);">1</a> <a onclick="javascript:window.location.href='/Web/huati/Default.aspx?Page=2'" href="javascript:void(2);">2</a> <a onclick="javascript:window.location.href='/Web/huati/Default.aspx?Page=3'" href="javascript:void(3);">3</a> <a onclick="javascript:window.location.href='/Web/huati/Default.aspx?Page=4'" href="javascript:void(4);">4</a> <a onclick="javascript:window.location.href='/Web/huati/Default.aspx?Page=5'" href="javascript:void(5);">5</a> <a onclick="javascript:window.location.href='/maku%20restoration/pages/focus%20topics/images/contentLi_39.jpg"></a> <a onclick="javascript:window.location.href='/Web/huati/Default.aspx?Page=6'" href="javascript:void(6);"><img title="last page" alt="" src="/maku%20restoration/pages/focus%20topics/images/weiye1.gif"></a> </div></div>
+            <div class="content-bot">
+            </div>
+        </div>
+    </div>
+
+        <div id="Right">
+            <div class="login" style="margin-top: 25px; min-height: 175px; height:auto; _height: 156px;">
+                <div class="login-top">
+                </div>
+                <div class="login-tit">
+                </div>
+                <div class="login-con" style="min-height: 110px; height:auto;_height:105px;">
+                    <div id="ctl00_divLogin">
+                        <img alt="" src="/maku%20restoration/pages/focus%20topics/images/denglu.jpg">
+                        <p style="margin-left: 45px;">
+                            visitors</p>
+                        <span class="login-font" style="text-align: right;">
+                            <p class="img">
+                            </p>
+                            <p style="margin-top: -10px;">
+                                Professional Early Learning Partners<br> 
+                                Accompanying your child's happy development</p>
+                            <input class="login-btn2" type="button" onclick="javascript:window.location.href='/Admin/Main.aspx'" name="btnSubmit" value="Register">
+                            <input class="login-btn2" type="button" onclick="javascript:window.location.href='/Admin/UserAdd.aspx'" name="btnSubmit" value="login">
+                        </span>
+                    </div>
+                    
+                </div>
+                <div class="login-bot" style="margin-top: -10px;">
+                </div>
+            </div>
+            
+        <div class="login" style="margin-top: 3px; height: 220px;">
+            <div class="login-top">
+            </div>
+            <div class="classroom-tit" style="background: url(/maku%20restoration/pages/focus%20topics/images/classroom_42.jpg) no-repeat;">
+            </div>
+            <div class="tools-con">
+                <p>
+                    <img src="/maku%20restoration/pages/focus%20topics/images/iconLi.jpg">
+                    <a href="javascript:void(0)">孕 前</a>
+                    <img src="/maku%20restoration/pages/focus%20topics/images/iconLi.jpg">
+                    <a href="javascript:void(0)">孕 期</a>
+                    <img src="/maku%20restoration/pages/focus%20topics/images/iconLi.jpg">
+                    <a href="javascript:void(0)">分 娩</a>
+                </p>
+                <p>
+                    <img src="/maku%20restoration/pages/focus%20topics/images/iconLi.jpg">
+                    <a href="javascript:void(0)">0-1岁</a>
+                    <img src="/maku%20restoration/pages/focus%20topics/images/iconLi.jpg">
+                    <a href="javascript:void(0)">1-3岁</a>
+                    <img src="/maku%20restoration/pages/focus%20topics/images/iconLi.jpg">
+                    <a href="javascript:void(0)">3-6岁</a>
+                </p>
+                <p>
+                    <img src="/maku%20restoration/pages/focus%20topics/images/iconLi.jpg">
+                    <a href="javascript:void(0)">3-6岁</a>
+                </p>
+                <p>
+                    <input class="tools-btn" type="submit" name="btnSubmit" value="join"></p>
+            </div>
+            <div class="login-bot">
+            </div>
+        </div>
+        <div class="login" style="margin-top: 10px; _margin-top: 3px; height: 152px;">
+            <div class="login-top">
+            </div>
+            <div class="boyin-upload" style="background: url(/maku%20restoration/pages/focus%20topics/images/boyin-upload1.jpg);">
+            </div>
+            <div class="boyin-con">
+                <img style="margin-left: 32px;" src="/maku%20restoration/pages/focus%20topics/images/boyin-upload_75.jpg">
+                
+                    
+                <input type="submit" name="ctl00$ContentRight$Button1" value="我要参与" id="ctl00_ContentRight_Button1" class="login-btn" style="margin-left: 155px;">
+            </div>
+            <div class="login-bot">
+            </div>
+        </div>
+        <div class="login" style="margin-top: 13px; _margin-top: 3px; height: 275px;">
+            <div class="login-top">
+            </div>
+            <div class="event-tit">
+                <input class="event-btn" style="margin-left: 155px; *margin-left: 140px;" type="submit" name="btnSubmit" value="Read more">
+            </div>
+            <div class="event-con">
+                <img src="/maku%20restoration/pages/focus%20topics/images/event_82.jpg">
+                <p>
+                    Experience adidas yoga to create the perfect body!</p>
+            </div>
+            <div class="login-bot">
+            </div>
+        </div>
+        <div class="right-adver">
+		<a href="https://web.archive.org/web/20110303085755/http://www.pampers.com.cn/" target="_blank"><img src="/maku%20restoration/pages/focus%20topics/images/Logining_adver.gif"></a>
+        </div>
+    </div>
+    <div class="blank5">
+    </div>
+
+        <div class="Footer">
+            <a href="/maku%20restoration/pages/about%20maku.com">About Maku.com</a> | <a href="/maku%20restoration/pages/contact%20us">Contact Us</a> |
+            <a href="/maku%20restoration/pages/disclaimer/">disclaimer</a> | <a href="/maku%20restoration/pages/affiliates/">Business</a> |
+            <a href="/maku%20restoration/pages/customer%20service/">Customer Service</a> | <a href="/maku%20restoration/pages/friendly%20links">Friendly Link</a>
+            <p>Copyright © 2009-2010 Softtel All Rights Reserved. Shanghai Xitao Trespa Digital Technology Co.</p>
+	      <p class="iport"><a href="https://web.archive.org/web/20110203081734/http://www.miitbeian.gov.cn/" target="_blank">Shanghai ICP 10025281</a></p>
+        </div>
+        <div class="blank5">
+        </div>
+    </div>
+    
+    </form>
