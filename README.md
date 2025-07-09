@@ -14,3 +14,5 @@ to do:
 3# Remove leftover WayBack Machine stuff
 
 4# Remake or somehow recover missing pages
+
+5# fix broken links (where possible) 
